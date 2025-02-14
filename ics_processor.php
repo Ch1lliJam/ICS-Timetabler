@@ -15,6 +15,15 @@ function iCalDecoder($file) {
             if (preg_match('/DESCRIPTION:(.*)END:VEVENT/si', $result[0][$i], $regs)) {
                 $majorarray['DESCRIPTION'] = str_replace("  ", " ", str_replace("\r\n", "", $regs[1]));
             }
+
+            // Split the SUMMARY field into individual components
+            if (isset($majorarray['SUMMARY'])) {
+                $summaryParts = explode(' ', $majorarray['SUMMARY'], 3);
+                $majorarray['LECTURE_TYPE'] = $summaryParts[0] ?? '';
+                $majorarray['COURSE_CODE'] = $summaryParts[1] ?? '';
+                $majorarray['COURSE_TITLE'] = $summaryParts[2] ?? '';
+            }
+
             $icalarray[] = $majorarray;
             unset($majorarray);
 
@@ -33,13 +42,14 @@ usort($events, function($a, $b) {
 });
 
 foreach($events as $event){
-    $now = date('Y-m-d H:i:s');//current date and time
-    $eventdate = date('Y-m-d H:i:s', strtotime($event['DTSTART']));//user friendly date
+    $now = date('Y-m-d H:i:s'); //current date and time
+    $eventdate = date('Y-m-d H:i:s', strtotime($event['DTSTART'])); //user friendly date
 
     if($eventdate > $now){
         echo "
             <div class='eventHolder'>
-                <div class='eventTitle'>".$event['SUMMARY']."</div>
+                <div class='eventTitle'>".$event['COURSE_CODE']."</div>
+                <div class='eventDescription'>".$event['COURSE_TITLE']."</div>
                 <div class='eventDate'>$eventdate</div>
                 <br>
             </div>";
