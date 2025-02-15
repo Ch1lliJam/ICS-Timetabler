@@ -82,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
         <div class="form-box" style="height: 600px;">
             <div class="form-value">
-                <form method="post" onsubmit="return validateForm(event)">
+                <form method="post" onsubmit="return validateForm(event, false)">
                     <h2>Create Account</h2>
                     <?php
                     if (!empty($error_message)) {
@@ -123,46 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     </section>
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="validation.js"></script>
+
 </body>
-
-<script>
-    function validateForm(event) {
-        let user_name = document.getElementById("user_name").value.trim();
-        let password = document.getElementById("password").value.trim();
-        let email = document.getElementById("email").value.trim();
-        let ics_link = document.getElementById("ics_link").value.trim();
-
-        let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        let passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
-        let usernameRegex = /^[a-zA-Z0-9_]{3,20}$/;
-        let icsRegex = /^webcal:\/\/www\.kent\.ac\.uk\/timetabling\/ical\/\d+\.ics$/;
-
-        if (!user_name.match(usernameRegex)) {
-            alert("Username must be 3-20 characters long, using only letters, numbers, and underscores.");
-            event.preventDefault();
-            return false;
-        }
-
-        if (!email.match(emailRegex)) {
-            alert("Invalid email format.");
-            event.preventDefault();
-            return false;
-        }
-
-        if (!password.match(passwordRegex)) {
-            alert("Password must be at least 8 characters long, contain at least one letter and one number.");
-            event.preventDefault();
-            return false;
-        }
-
-        if (!ics_link.match(icsRegex)) {
-            alert("Invalid ICS link. It must follow the format: webcal://www.kent.ac.uk/timetabling/ical/123456.ics");
-            event.preventDefault();
-            return false;
-        }
-
-        return true;
-    }
-    </script>
-
 </html>

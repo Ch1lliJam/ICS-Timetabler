@@ -28,26 +28,6 @@ foreach ($lectures as &$lecture) {
 
 $lecturesJson = json_encode($lectures);
 
-//$currentDay = date('w'); // Get current day of the week as an integer (0 for Sunday, 1 for Monday, etc.)
-//$currentTime = date('H:i'); // Get current time in 'HH:MM' format
-
-//$lectures = array_filter($lectures, function ($lecture) use ($currentDay, $currentTime) {
-//    $days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
-//    $lectureDay = array_search(strtolower($lecture['day']), $days); // Ensure case-insensitive comparison
-//    $lectureStartTime = strtotime($lecture['start_time']);
-//    $lectureEndTime = strtotime($lecture['end_time']);
-//    $currentTime = strtotime($currentTime);
-
-    // Debugging output
-//    error_log("Lecture Day: $lectureDay, Current Day: $currentDay, Lecture Start Time: $lectureStartTime, Lecture End Time: $lectureEndTime, Current Time: $currentTime");
-
-    // Check if the lecture is today and currently running or if it is on a future day
-//    return (($lectureDay === $currentDay) && $currentTime >= $lectureStartTime && $currentTime <= $lectureEndTime) || ($lectureDay > $currentDay);
-//});
-
-//$lectures = array_values($lectures);
-// Debugging output for filtered lectures
-//$lecturesJson = json_encode($lectures);
 ?>
 
 <!DOCTYPE html>

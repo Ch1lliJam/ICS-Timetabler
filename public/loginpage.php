@@ -1,5 +1,4 @@
 <?php
-// filepath: /d:/Xampp/htdocs/mini website new approach/public/loginpage.php
 
 session_start();
 require '../private/autoload.php';
@@ -100,5 +99,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     </section>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="validation.js"></script>
 </body>
 </html>

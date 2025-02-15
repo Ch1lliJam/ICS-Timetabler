@@ -1,8 +1,7 @@
 <?php 
 session_start();
+require '../private/autoload.php'; //yeah this should load stuff from the private folder, but it seems a bit faulty
 
-	require '../private/autoload.php'; //yeah this should load stuff from the private folder, but it seems a bit faulty
-	
 	
 ?>
 

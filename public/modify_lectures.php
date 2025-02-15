@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../private/autoload.php'; // Ensure this file includes database connection and the `check_login` function
+require '../private/autoload.php'; 
 
 // Check if user is logged in
 $user_data = check_login($con);
