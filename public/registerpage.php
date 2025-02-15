@@ -1,18 +1,35 @@
 <?php 
-// filepath: /d:/Xampp/htdocs/mini website new approach/public/registerpage.php
-
 session_start();
-require '../private/autoload.php'; // Ensure this file includes database connection and the `check_login` function
+require '../private/autoload.php'; 
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-    // Retrieve and sanitize input
     $user_name = trim($_POST['user_name']);
     $password = trim($_POST['password']);
     $email = trim($_POST['email']);
+    $ics_link = trim($_POST['ics_link']);
 
-    // Validate email with improved regex
-    if (!empty($user_name) && !empty($password) && !empty($email) && preg_match("/^[\w\-]+@[\w\-]+\.[\w\-\.]+$/", $email)) {
-        // Check if username or email already exists
+    // Email validation (stronger regex)
+    $email_regex = "/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/";
+    $password_regex = "/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/"; // Minimum 8 chars, 1 letter, 1 number, 1 special char
+    $username_regex = "/^[a-zA-Z0-9_]{3,20}$/"; // Only alphanumeric and underscore, 3-20 chars
+    
+    // Validate ICS link
+    function validate_ics_link($link) {
+        $pattern = "/^webcal:\/\/www\.kent\.ac\.uk\/timetabling\/ical\/\d+\.ics$/";
+        return preg_match($pattern, $link);
+    }
+
+    // If all fields are provided and valid
+    if (!empty($user_name) && !empty($password) && !empty($email) && !empty($ics_link) &&
+        preg_match($email_regex, $email) &&
+        preg_match($password_regex, $password) &&
+        preg_match($username_regex, $user_name) &&
+        validate_ics_link($ics_link)) {
+        
+        // Convert webcal to https
+        $ics_link = str_replace("webcal://", "https://", $ics_link);
+        
+        // Check if username or email exists
         $query = "SELECT * FROM users WHERE user_name = ? OR email = ?";
         $stmt = $con->prepare($query);
         $stmt->bind_param("ss", $user_name, $email);
@@ -20,39 +37,25 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $result = $stmt->get_result();
 
         if ($result && $result->num_rows > 0) {
-            $error_message = "Username or email already exists.";
+            echo "<script>alert('Username or email already exists.');</script>";
         } else {
-            // Save to database
             $user_id = getNextAvailableUserId();
-            // Hash the password
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-            $query = "INSERT INTO users (user_id, user_name, password, email) VALUES (?, ?, ?, ?)";
+            $query = "INSERT INTO users (user_id, user_name, password, email, ics_link) VALUES (?, ?, ?, ?, ?)";
             $stmt = $con->prepare($query);
-            $stmt->bind_param("isss", $user_id, $user_name, $hashedPassword, $email);
+            $stmt->bind_param("issss", $user_id, $user_name, $hashedPassword, $email, $ics_link);
 
             if ($stmt->execute()) {
-                // Redirect to login page after successful registration
-                header("Location: loginpage.php");
-                die;
+                echo "<script>alert('Registration successful! Redirecting to login.'); window.location.href='loginpage.php';</script>";
+                exit;
             } else {
-                $error_message = "Error saving to database.";
+                echo "<script>alert('Error saving to database.');</script>";
             }
         }
         $stmt->close();
     } else {
-        // Determine specific error message
-        if (empty($user_name)) {
-            $error_message = "Username cannot be empty.";
-        } elseif (empty($password)) {
-            $error_message = "Password cannot be empty.";
-        } elseif (empty($email)) {
-            $error_message = "Email cannot be empty.";
-        } elseif (!preg_match("/^[\w\-]+@[\w\-]+\.[\w\-\.]+$/", $email)) {
-            $error_message = "Invalid email format.";
-        } else {
-            $error_message = "Please enter valid information.";
-        }
+        echo "<script>alert('Please enter valid information.');</script>";
     }
 }
 ?>
@@ -77,9 +80,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             </ul>
         </nav>
 
-        <div class="form-box">
+        <div class="form-box" style="height: 600px;">
             <div class="form-value">
-                <form method="post">
+                <form method="post" onsubmit="return validateForm(event)">
                     <h2>Create Account</h2>
                     <?php
                     if (!empty($error_message)) {
@@ -94,19 +97,25 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 					
 					<div class="inputbox">
                         <ion-icon name="person-outline"></ion-icon> 
-                        <input id="text" type="text" name="user_name" required>
+                        <input id="user_name" type="text" name="user_name" required>
                         <label for="">Username</label>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input id="text" type="password" name="password" required>
+                        <input id="password" type="password" name="password" required>
                         <label for="">Password</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input id="ics_link" type="text" name="ics_link" required>
+                        <label for="">ICS link</label>
                     </div>
 
                     
                     <button class="loginbutton" type="submit" value="Signup" >Sign up</button>
                     <div class="register">
                         <p>Have a account already?  &nbsp &nbsp<a href="loginpage.php">Login here</a></p>
+                        <p>Can't find the ical link?  &nbsp &nbsp<a href="https://www.kent.ac.uk/student/my-study/">Go here</a></p>
                     </div>
                 </form>
             </div>
@@ -115,4 +124,45 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
+<script>
+    function validateForm(event) {
+        let user_name = document.getElementById("user_name").value.trim();
+        let password = document.getElementById("password").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let ics_link = document.getElementById("ics_link").value.trim();
+
+        let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        let passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+        let usernameRegex = /^[a-zA-Z0-9_]{3,20}$/;
+        let icsRegex = /^webcal:\/\/www\.kent\.ac\.uk\/timetabling\/ical\/\d+\.ics$/;
+
+        if (!user_name.match(usernameRegex)) {
+            alert("Username must be 3-20 characters long, using only letters, numbers, and underscores.");
+            event.preventDefault();
+            return false;
+        }
+
+        if (!email.match(emailRegex)) {
+            alert("Invalid email format.");
+            event.preventDefault();
+            return false;
+        }
+
+        if (!password.match(passwordRegex)) {
+            alert("Password must be at least 8 characters long, contain at least one letter and one number.");
+            event.preventDefault();
+            return false;
+        }
+
+        if (!ics_link.match(icsRegex)) {
+            alert("Invalid ICS link. It must follow the format: webcal://www.kent.ac.uk/timetabling/ical/123456.ics");
+            event.preventDefault();
+            return false;
+        }
+
+        return true;
+    }
+    </script>
+
 </html>
