@@ -82,6 +82,20 @@ function processICSFile($user_id, $filename) {
             $majorarray['LOCATION'] = $locationParts[0] ?? '';
         }
 
+
+        // Extract the DTSTART and DTEND fields
+        if (isset($majorarray['DTSTART'])) {
+            $startDateTime = DateTime::createFromFormat('Ymd\THis', $majorarray['DTSTART']);
+            $majorarray['START_DATE'] = $startDateTime->format('Y-m-d');
+            $majorarray['START_TIME'] = $startDateTime->format('H:i');
+        }
+
+        if (isset($majorarray['DTEND'])) {
+            $endDateTime = DateTime::createFromFormat('Ymd\THis', $majorarray['DTEND']);
+            $majorarray['END_DATE'] = $endDateTime->format('Y-m-d');
+            $majorarray['END_TIME'] = $endDateTime->format('H:i');
+        }
+
         $events[] = $majorarray;
     }
 
@@ -100,7 +114,9 @@ function processICSFile($user_id, $filename) {
                     <div class='eventTitle'>".$event['COURSE_CODE']."</div>
                     <div class='eventDescription'>".$event['COURSE_TITLE']."</div>
                     <div class='eventLocation'>".$event['LOCATION']."</div>
-                    <div class='eventDate'>$eventdate</div>
+                    <div class='eventDate'>".$event['START_DATE']."</div>
+                    <div class='eventStartTime'>".$event['START_TIME']."</div>
+                    <div class='eventEndTime'>".$event['END_TIME']."</div>
                     <br>
                 </div>";
         }

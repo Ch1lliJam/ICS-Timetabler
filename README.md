@@ -17,3 +17,7 @@ Todo:
 Howto test:
 - login with an account
 - then direct browser to test_ical_func.php
+
+Onedrive link - https://livekentac-my.sharepoint.com/my
+Attendance link - https://attendance.kent.ac.uk/selfregistration
+
