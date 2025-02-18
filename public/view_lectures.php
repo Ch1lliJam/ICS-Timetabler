@@ -12,7 +12,7 @@ if (!$user_data) {
 $user_id = $user_data['user_id'];
 
 // Fetch lectures from the database
-$query = "SELECT * FROM lectures WHERE user_id = ? ORDER BY day";
+$query = "SELECT * FROM lectures WHERE user_id = ?";
 $stmt = $con->prepare($query);
 $stmt->bind_param("i", $user_id);
 $stmt->execute();
@@ -177,7 +177,7 @@ $lecturesJson = json_encode($lectures);
         <script>
             console.log("Lectures:", lectures);
         </script>
-        <script src="app.js"></script>
+        <!-- <script src="app.js"></script> -->
 
         <!-- Navigation Buttons -->
         <div class="button">

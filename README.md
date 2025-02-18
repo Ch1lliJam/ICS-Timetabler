@@ -21,3 +21,6 @@ Howto test:
 Onedrive link - https://livekentac-my.sharepoint.com/my
 Attendance link - https://attendance.kent.ac.uk/selfregistration
 
+- need to find app.js
+- need to fix date logic issue in view_lectures.php, likely issue with code in view_lectures
+- need
