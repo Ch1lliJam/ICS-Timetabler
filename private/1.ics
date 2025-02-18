@@ -1,0 +1,3558 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:University of Kent THALIA
+X-WR-CALNAME:My classes
+TZID:Europe/London
+X-WR-CALDESC:University of Kent personalised icalendar feed
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+UID:234834_202500000184_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241016T140000
+DTEND:20241016T150000
+SUMMARY:PRESENTATION  Supercharge Your Grades with Library Skills
+LOCATION: W-LT
+DESCRIPTION:Taught by TBA\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  11 EXTRA Term   Academic Week no. 11 ( week range 1 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017322_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241003T090000
+DTEND:20241003T110000
+SUMMARY:PC COMP3200 Group 17 Introduction to Object-Oriented Programming
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Piotr Sawicki\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017323_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241010T090000
+DTEND:20241010T110000
+SUMMARY:PC COMP3200 Group 17 Introduction to Object-Oriented Programming
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Piotr Sawicki\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017324_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241017T090000
+DTEND:20241017T110000
+SUMMARY:PC COMP3200 Group 17 Introduction to Object-Oriented Programming
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Piotr Sawicki\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017325_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241024T090000
+DTEND:20241024T110000
+SUMMARY:PC COMP3200 Group 17 Introduction to Object-Oriented Programming
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Piotr Sawicki\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017326_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241031T090000
+DTEND:20241031T110000
+SUMMARY:PC COMP3200 Group 17 Introduction to Object-Oriented Programming
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Piotr Sawicki\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017327_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241114T090000
+DTEND:20241114T110000
+SUMMARY:PC COMP3200 Group 17 Introduction to Object-Oriented Programming
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Piotr Sawicki\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017328_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241121T090000
+DTEND:20241121T110000
+SUMMARY:PC COMP3200 Group 17 Introduction to Object-Oriented Programming
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Piotr Sawicki\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017329_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241128T090000
+DTEND:20241128T110000
+SUMMARY:PC COMP3200 Group 17 Introduction to Object-Oriented Programming
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Piotr Sawicki\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017330_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241205T090000
+DTEND:20241205T110000
+SUMMARY:PC COMP3200 Group 17 Introduction to Object-Oriented Programming
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Piotr Sawicki\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017331_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241212T090000
+DTEND:20241212T110000
+SUMMARY:PC COMP3200 Group 17 Introduction to Object-Oriented Programming
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Piotr Sawicki\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017362_8@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240923T120000
+DTEND:20240923T140000
+SUMMARY:DROPIN COMP3200 Introduction to Object-Oriented Programming
+LOCATION: CEPC2
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CEPC2\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017373_8@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240923T100000
+DTEND:20240923T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017374_8@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240924T090000
+DTEND:20240924T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017375_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240930T100000
+DTEND:20240930T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017376_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241001T090000
+DTEND:20241001T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017377_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241007T100000
+DTEND:20241007T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017378_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241008T090000
+DTEND:20241008T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017379_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241014T100000
+DTEND:20241014T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017380_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241015T090000
+DTEND:20241015T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017381_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241021T100000
+DTEND:20241021T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017382_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241022T090000
+DTEND:20241022T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017383_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241028T100000
+DTEND:20241028T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017384_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241029T090000
+DTEND:20241029T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017385_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241111T100000
+DTEND:20241111T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017386_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241112T090000
+DTEND:20241112T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017387_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241118T100000
+DTEND:20241118T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017388_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241119T090000
+DTEND:20241119T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017389_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241125T100000
+DTEND:20241125T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017390_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241126T090000
+DTEND:20241126T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017391_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241202T100000
+DTEND:20241202T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017392_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241203T090000
+DTEND:20241203T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017393_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241209T100000
+DTEND:20241209T110000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017394_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241210T090000
+DTEND:20241210T100000
+SUMMARY:LECTURE COMP3200 Introduction to Object-Oriented Programming
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017475_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241004T150000
+DTEND:20241004T170000
+SUMMARY:SEMINAR COMP3220 Group 19 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Mr Sergey Ovchinnik\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017476_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241011T150000
+DTEND:20241011T170000
+SUMMARY:SEMINAR COMP3220 Group 19 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Mr Sergey Ovchinnik\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017477_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241018T150000
+DTEND:20241018T170000
+SUMMARY:SEMINAR COMP3220 Group 19 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Mr Sergey Ovchinnik\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017478_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241025T150000
+DTEND:20241025T170000
+SUMMARY:SEMINAR COMP3220 Group 19 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Mr Sergey Ovchinnik\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017479_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241101T150000
+DTEND:20241101T170000
+SUMMARY:SEMINAR COMP3220 Group 19 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Mr Sergey Ovchinnik\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017480_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241115T150000
+DTEND:20241115T170000
+SUMMARY:SEMINAR COMP3220 Group 19 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Mr Sergey Ovchinnik\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017481_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241122T150000
+DTEND:20241122T170000
+SUMMARY:SEMINAR COMP3220 Group 19 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Mr Sergey Ovchinnik\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017482_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241129T150000
+DTEND:20241129T170000
+SUMMARY:SEMINAR COMP3220 Group 19 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Mr Sergey Ovchinnik\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017483_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241206T150000
+DTEND:20241206T170000
+SUMMARY:SEMINAR COMP3220 Group 19 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Mr Sergey Ovchinnik\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017484_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241213T150000
+DTEND:20241213T170000
+SUMMARY:SEMINAR COMP3220 Group 19 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Mr Sergey Ovchinnik\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017605_8@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240926T130000
+DTEND:20240926T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017606_8@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240927T130000
+DTEND:20240927T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017607_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241003T130000
+DTEND:20241003T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017608_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241004T130000
+DTEND:20241004T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017609_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241010T130000
+DTEND:20241010T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017610_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241011T130000
+DTEND:20241011T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017611_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241017T130000
+DTEND:20241017T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017612_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241018T130000
+DTEND:20241018T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017613_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241024T130000
+DTEND:20241024T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017614_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241025T130000
+DTEND:20241025T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017615_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241031T130000
+DTEND:20241031T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017616_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241101T130000
+DTEND:20241101T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017617_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241114T130000
+DTEND:20241114T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017618_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241115T130000
+DTEND:20241115T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017619_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241121T130000
+DTEND:20241121T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017620_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241122T130000
+DTEND:20241122T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017621_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241128T130000
+DTEND:20241128T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017622_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241129T130000
+DTEND:20241129T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017623_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241205T130000
+DTEND:20241205T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017624_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241206T130000
+DTEND:20241206T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017625_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241212T130000
+DTEND:20241212T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017626_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241213T130000
+DTEND:20241213T140000
+SUMMARY:LECTURE COMP3220 Foundations of Computing I
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget, Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017767_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250121T100000
+DTEND:20250121T110000
+SUMMARY:PC COMP3230 Group 25 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017768_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250128T100000
+DTEND:20250128T110000
+SUMMARY:PC COMP3230 Group 25 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017769_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250204T100000
+DTEND:20250204T110000
+SUMMARY:PC COMP3230 Group 25 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017770_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250211T100000
+DTEND:20250211T110000
+SUMMARY:PC COMP3230 Group 25 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017771_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250218T100000
+DTEND:20250218T110000
+SUMMARY:PC COMP3230 Group 25 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017772_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250304T100000
+DTEND:20250304T110000
+SUMMARY:PC COMP3230 Group 25 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017773_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250311T100000
+DTEND:20250311T110000
+SUMMARY:PC COMP3230 Group 25 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017774_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250318T100000
+DTEND:20250318T110000
+SUMMARY:PC COMP3230 Group 25 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017775_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250325T100000
+DTEND:20250325T110000
+SUMMARY:PC COMP3230 Group 25 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017776_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250401T100000
+DTEND:20250401T110000
+SUMMARY:PC COMP3230 Group 25 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017797_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250124T090000
+DTEND:20250124T100000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017798_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250124T110000
+DTEND:20250124T120000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017799_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250131T090000
+DTEND:20250131T100000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017800_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250131T110000
+DTEND:20250131T120000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017801_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250207T090000
+DTEND:20250207T100000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017802_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250207T110000
+DTEND:20250207T120000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017803_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250214T090000
+DTEND:20250214T100000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017804_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250214T110000
+DTEND:20250214T120000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017805_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250221T090000
+DTEND:20250221T100000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017806_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250221T110000
+DTEND:20250221T120000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017807_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250307T090000
+DTEND:20250307T100000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017808_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250307T110000
+DTEND:20250307T120000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017809_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250314T090000
+DTEND:20250314T100000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017810_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250314T110000
+DTEND:20250314T120000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017811_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250321T090000
+DTEND:20250321T100000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017812_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250321T110000
+DTEND:20250321T120000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017813_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250328T090000
+DTEND:20250328T100000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017814_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250328T110000
+DTEND:20250328T120000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017815_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250404T090000
+DTEND:20250404T100000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017816_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250404T110000
+DTEND:20250404T120000
+SUMMARY:DROPIN COMP3230 Databases and the Web
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017817_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250116T170000
+DTEND:20250116T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017818_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250117T120000
+DTEND:20250117T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017819_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250123T170000
+DTEND:20250123T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017820_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250124T120000
+DTEND:20250124T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017821_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250130T170000
+DTEND:20250130T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017822_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250131T120000
+DTEND:20250131T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017823_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250206T170000
+DTEND:20250206T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017824_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250207T120000
+DTEND:20250207T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017825_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250213T170000
+DTEND:20250213T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017826_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250214T120000
+DTEND:20250214T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017827_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250220T170000
+DTEND:20250220T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017828_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250221T120000
+DTEND:20250221T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017829_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250306T170000
+DTEND:20250306T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017830_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250307T120000
+DTEND:20250307T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017831_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250313T170000
+DTEND:20250313T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017832_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250314T120000
+DTEND:20250314T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017833_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250320T170000
+DTEND:20250320T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017834_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250321T120000
+DTEND:20250321T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017835_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250327T170000
+DTEND:20250327T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017836_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250328T120000
+DTEND:20250328T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017837_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250403T170000
+DTEND:20250403T180000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017838_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250404T120000
+DTEND:20250404T130000
+SUMMARY:LECTURE COMP3230 Databases and the Web
+LOCATION: W-LT
+DESCRIPTION:Taught by  Professor Peter Rodgers, Doctor Yang He\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017959_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250120T130000
+DTEND:20250120T150000
+SUMMARY:SEMINAR COMP3250 Group 23 Foundations of Computing II
+LOCATION: CHXSR2
+DESCRIPTION:Taught by  Mr Alp Arslan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHXSR2\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017960_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250127T130000
+DTEND:20250127T150000
+SUMMARY:SEMINAR COMP3250 Group 23 Foundations of Computing II
+LOCATION: CHXSR2
+DESCRIPTION:Taught by  Mr Alp Arslan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHXSR2\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017961_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250203T130000
+DTEND:20250203T150000
+SUMMARY:SEMINAR COMP3250 Group 23 Foundations of Computing II
+LOCATION: CHXSR2
+DESCRIPTION:Taught by  Mr Alp Arslan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHXSR2\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017962_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250210T130000
+DTEND:20250210T150000
+SUMMARY:SEMINAR COMP3250 Group 23 Foundations of Computing II
+LOCATION: CHXSR2
+DESCRIPTION:Taught by  Mr Alp Arslan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHXSR2\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017963_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250217T130000
+DTEND:20250217T150000
+SUMMARY:SEMINAR COMP3250 Group 23 Foundations of Computing II
+LOCATION: CHXSR2
+DESCRIPTION:Taught by  Mr Alp Arslan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHXSR2\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017964_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250303T130000
+DTEND:20250303T150000
+SUMMARY:SEMINAR COMP3250 Group 23 Foundations of Computing II
+LOCATION: CHXSR2
+DESCRIPTION:Taught by  Mr Alp Arslan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHXSR2\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017965_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250310T130000
+DTEND:20250310T150000
+SUMMARY:SEMINAR COMP3250 Group 23 Foundations of Computing II
+LOCATION: CHXSR2
+DESCRIPTION:Taught by  Mr Alp Arslan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHXSR2\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017966_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250317T130000
+DTEND:20250317T150000
+SUMMARY:SEMINAR COMP3250 Group 23 Foundations of Computing II
+LOCATION: CHXSR2
+DESCRIPTION:Taught by  Mr Alp Arslan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHXSR2\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017967_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250324T130000
+DTEND:20250324T150000
+SUMMARY:SEMINAR COMP3250 Group 23 Foundations of Computing II
+LOCATION: CHXSR2
+DESCRIPTION:Taught by  Mr Alp Arslan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHXSR2\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500017968_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250331T130000
+DTEND:20250331T150000
+SUMMARY:SEMINAR COMP3250 Group 23 Foundations of Computing II
+LOCATION: CHXSR2
+DESCRIPTION:Taught by  Mr Alp Arslan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHXSR2\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018039_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250122T090000
+DTEND:20250122T110000
+SUMMARY:DROPIN COMP3250 Foundations of Computing II
+LOCATION: KENSR1
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018040_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250129T090000
+DTEND:20250129T110000
+SUMMARY:DROPIN COMP3250 Foundations of Computing II
+LOCATION: KENSR1
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018041_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250205T090000
+DTEND:20250205T110000
+SUMMARY:DROPIN COMP3250 Foundations of Computing II
+LOCATION: KENSR1
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018042_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250212T090000
+DTEND:20250212T110000
+SUMMARY:DROPIN COMP3250 Foundations of Computing II
+LOCATION: KENSR1
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018043_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250219T090000
+DTEND:20250219T110000
+SUMMARY:DROPIN COMP3250 Foundations of Computing II
+LOCATION: KENSR1
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018044_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250305T090000
+DTEND:20250305T110000
+SUMMARY:DROPIN COMP3250 Foundations of Computing II
+LOCATION: KENSR1
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018045_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250312T090000
+DTEND:20250312T110000
+SUMMARY:DROPIN COMP3250 Foundations of Computing II
+LOCATION: KENSR1
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018046_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250319T090000
+DTEND:20250319T110000
+SUMMARY:DROPIN COMP3250 Foundations of Computing II
+LOCATION: KENSR1
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018047_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250326T090000
+DTEND:20250326T110000
+SUMMARY:DROPIN COMP3250 Foundations of Computing II
+LOCATION: KENSR1
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018048_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250402T090000
+DTEND:20250402T110000
+SUMMARY:DROPIN COMP3250 Foundations of Computing II
+LOCATION: KENSR1
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018049_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250114T130000
+DTEND:20250114T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018050_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250117T150000
+DTEND:20250117T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018051_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250121T130000
+DTEND:20250121T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018052_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250124T150000
+DTEND:20250124T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018053_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250128T130000
+DTEND:20250128T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Ms Janet Carter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018054_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250131T150000
+DTEND:20250131T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Olaf Chitil\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018055_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250204T130000
+DTEND:20250204T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Olaf Chitil\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018056_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250207T150000
+DTEND:20250207T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Olaf Chitil\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018057_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250211T130000
+DTEND:20250211T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Olaf Chitil\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018058_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250214T150000
+DTEND:20250214T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Olaf Chitil\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018059_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250218T130000
+DTEND:20250218T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018060_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250221T150000
+DTEND:20250221T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018061_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250304T130000
+DTEND:20250304T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018062_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250307T150000
+DTEND:20250307T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018063_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250311T130000
+DTEND:20250311T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018064_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250314T150000
+DTEND:20250314T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Rowena Paget\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018065_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250318T130000
+DTEND:20250318T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018066_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250321T150000
+DTEND:20250321T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018067_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250325T130000
+DTEND:20250325T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018068_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250328T150000
+DTEND:20250328T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018069_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250401T130000
+DTEND:20250401T140000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018070_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250404T150000
+DTEND:20250404T160000
+SUMMARY:LECTURE COMP3250 Foundations of Computing II
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018121_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240930T150000
+DTEND:20240930T160000
+SUMMARY:PC COMP3280 Group 16 Human Computer Interaction
+LOCATION: MMLAB1
+DESCRIPTION:Taught by  Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MMLAB1\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018122_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241007T150000
+DTEND:20241007T160000
+SUMMARY:PC COMP3280 Group 16 Human Computer Interaction
+LOCATION: MMLAB1
+DESCRIPTION:Taught by  Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MMLAB1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018123_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241014T150000
+DTEND:20241014T160000
+SUMMARY:PC COMP3280 Group 16 Human Computer Interaction
+LOCATION: MMLAB1
+DESCRIPTION:Taught by  Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MMLAB1\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018124_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241021T150000
+DTEND:20241021T160000
+SUMMARY:PC COMP3280 Group 16 Human Computer Interaction
+LOCATION: MMLAB1
+DESCRIPTION:Taught by  Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MMLAB1\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018125_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241028T150000
+DTEND:20241028T160000
+SUMMARY:PC COMP3280 Group 16 Human Computer Interaction
+LOCATION: MMLAB1
+DESCRIPTION:Taught by  Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MMLAB1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018126_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241111T150000
+DTEND:20241111T160000
+SUMMARY:PC COMP3280 Group 16 Human Computer Interaction
+LOCATION: MMLAB1
+DESCRIPTION:Taught by  Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MMLAB1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018127_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241118T150000
+DTEND:20241118T160000
+SUMMARY:PC COMP3280 Group 16 Human Computer Interaction
+LOCATION: MMLAB1
+DESCRIPTION:Taught by  Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MMLAB1\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018128_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241125T150000
+DTEND:20241125T160000
+SUMMARY:PC COMP3280 Group 16 Human Computer Interaction
+LOCATION: MMLAB1
+DESCRIPTION:Taught by  Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MMLAB1\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018129_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241202T150000
+DTEND:20241202T160000
+SUMMARY:PC COMP3280 Group 16 Human Computer Interaction
+LOCATION: MMLAB1
+DESCRIPTION:Taught by  Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MMLAB1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018130_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241209T150000
+DTEND:20241209T160000
+SUMMARY:PC COMP3280 Group 16 Human Computer Interaction
+LOCATION: MMLAB1
+DESCRIPTION:Taught by  Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MMLAB1\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018251_8@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240923T130000
+DTEND:20240923T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018252_8@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240926T160000
+DTEND:20240926T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018253_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240930T130000
+DTEND:20240930T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018254_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241003T160000
+DTEND:20241003T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018255_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241007T130000
+DTEND:20241007T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018256_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241010T160000
+DTEND:20241010T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018257_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241014T130000
+DTEND:20241014T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018258_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241017T160000
+DTEND:20241017T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018259_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241021T130000
+DTEND:20241021T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018260_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241024T160000
+DTEND:20241024T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018261_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241028T130000
+DTEND:20241028T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018262_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241031T160000
+DTEND:20241031T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018263_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241111T130000
+DTEND:20241111T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018264_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241114T160000
+DTEND:20241114T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018265_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241118T130000
+DTEND:20241118T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018266_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241121T160000
+DTEND:20241121T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018267_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241125T130000
+DTEND:20241125T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018268_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241128T160000
+DTEND:20241128T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018269_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241202T130000
+DTEND:20241202T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018270_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241205T160000
+DTEND:20241205T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018271_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241209T130000
+DTEND:20241209T140000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye, Mr Dan Bard\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018272_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241212T160000
+DTEND:20241212T170000
+SUMMARY:LECTURE COMP3280 Human Computer Interaction
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor Kemi Ademoye\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018273_8@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240926T150000
+DTEND:20240926T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018274_8@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240927T100000
+DTEND:20240927T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018275_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241003T150000
+DTEND:20241003T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018276_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241004T100000
+DTEND:20241004T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018277_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241010T150000
+DTEND:20241010T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018278_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241011T100000
+DTEND:20241011T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018279_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241017T150000
+DTEND:20241017T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018280_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241018T100000
+DTEND:20241018T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018281_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241024T150000
+DTEND:20241024T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018282_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241025T100000
+DTEND:20241025T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018283_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241031T150000
+DTEND:20241031T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018284_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241101T100000
+DTEND:20241101T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018285_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241114T150000
+DTEND:20241114T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018286_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241115T100000
+DTEND:20241115T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018287_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241121T150000
+DTEND:20241121T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018288_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241122T100000
+DTEND:20241122T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018289_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241128T150000
+DTEND:20241128T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018290_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241129T100000
+DTEND:20241129T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018291_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241205T150000
+DTEND:20241205T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018292_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241206T100000
+DTEND:20241206T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018293_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241212T150000
+DTEND:20241212T160000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018294_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241213T100000
+DTEND:20241213T110000
+SUMMARY:LECTURE COMP3370 Computers and the Cloud
+LOCATION: W-LT
+DESCRIPTION:Taught by  Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018387_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250121T110000
+DTEND:20250121T120000
+SUMMARY:LAB_G COMP3830 Group 13 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Fraser James, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018388_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250128T110000
+DTEND:20250128T120000
+SUMMARY:LAB_G COMP3830 Group 13 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Fraser James, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018389_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250204T110000
+DTEND:20250204T120000
+SUMMARY:LAB_G COMP3830 Group 13 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Fraser James, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018390_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250211T110000
+DTEND:20250211T120000
+SUMMARY:LAB_G COMP3830 Group 13 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Fraser James, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018391_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250218T110000
+DTEND:20250218T120000
+SUMMARY:LAB_G COMP3830 Group 13 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Fraser James, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018392_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250304T110000
+DTEND:20250304T120000
+SUMMARY:LAB_G COMP3830 Group 13 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Fraser James, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018393_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250311T110000
+DTEND:20250311T120000
+SUMMARY:LAB_G COMP3830 Group 13 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Fraser James, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018394_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250318T110000
+DTEND:20250318T120000
+SUMMARY:LAB_G COMP3830 Group 13 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Fraser James, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018395_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250325T110000
+DTEND:20250325T120000
+SUMMARY:LAB_G COMP3830 Group 13 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Fraser James, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018396_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250401T110000
+DTEND:20250401T120000
+SUMMARY:LAB_G COMP3830 Group 13 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Fraser James, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018527_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250121T120000
+DTEND:20250121T130000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: COPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=COPC1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018528_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250123T160000
+DTEND:20250123T170000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018529_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250128T120000
+DTEND:20250128T130000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: COPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=COPC1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018530_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250130T160000
+DTEND:20250130T170000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018531_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250204T120000
+DTEND:20250204T130000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: COPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=COPC1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018532_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250206T160000
+DTEND:20250206T170000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018533_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250211T120000
+DTEND:20250211T130000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: COPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=COPC1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018534_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250213T160000
+DTEND:20250213T170000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018535_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250218T120000
+DTEND:20250218T130000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: COPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=COPC1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018536_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250220T160000
+DTEND:20250220T170000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018537_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250304T120000
+DTEND:20250304T130000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: COPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=COPC1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018538_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250306T160000
+DTEND:20250306T170000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018539_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250311T120000
+DTEND:20250311T130000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: COPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=COPC1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018540_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250313T160000
+DTEND:20250313T170000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018541_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250318T120000
+DTEND:20250318T130000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: COPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=COPC1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018542_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250320T160000
+DTEND:20250320T170000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018543_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250325T120000
+DTEND:20250325T130000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: COPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=COPC1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018544_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250327T160000
+DTEND:20250327T170000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018545_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250401T120000
+DTEND:20250401T130000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: COPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=COPC1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018546_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250403T160000
+DTEND:20250403T170000
+SUMMARY:DROPIN COMP3830 Problem Solving with Algorithms
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018547_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250114T160000
+DTEND:20250114T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018548_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250116T110000
+DTEND:20250116T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018549_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250121T160000
+DTEND:20250121T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018550_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250123T110000
+DTEND:20250123T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018551_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250128T160000
+DTEND:20250128T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018552_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250130T110000
+DTEND:20250130T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018553_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250204T160000
+DTEND:20250204T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018554_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250206T110000
+DTEND:20250206T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018555_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250211T160000
+DTEND:20250211T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018556_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250213T110000
+DTEND:20250213T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018557_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250218T160000
+DTEND:20250218T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018558_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250220T110000
+DTEND:20250220T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018559_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250304T160000
+DTEND:20250304T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018560_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250306T110000
+DTEND:20250306T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018561_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250311T160000
+DTEND:20250311T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018562_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250313T110000
+DTEND:20250313T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018563_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250318T160000
+DTEND:20250318T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018564_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250320T110000
+DTEND:20250320T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018565_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250325T160000
+DTEND:20250325T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018566_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250327T110000
+DTEND:20250327T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018567_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250401T160000
+DTEND:20250401T170000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018568_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250403T110000
+DTEND:20250403T120000
+SUMMARY:LECTURE COMP3830 Problem Solving with Algorithms
+LOCATION: KLT1
+DESCRIPTION:Taught by  Doctor Carlos Perez Delgado, Doctor Sanjay Bhattacherjee\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018806_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250122T110000
+DTEND:20250122T130000
+SUMMARY:PC COMP5200 Group 13 Further Object-Oriented Programming
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Md Rezwan Hasan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018807_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250129T110000
+DTEND:20250129T130000
+SUMMARY:PC COMP5200 Group 13 Further Object-Oriented Programming
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Md Rezwan Hasan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018808_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250205T110000
+DTEND:20250205T130000
+SUMMARY:PC COMP5200 Group 13 Further Object-Oriented Programming
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Md Rezwan Hasan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018809_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250212T110000
+DTEND:20250212T130000
+SUMMARY:PC COMP5200 Group 13 Further Object-Oriented Programming
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Md Rezwan Hasan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018810_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250219T110000
+DTEND:20250219T130000
+SUMMARY:PC COMP5200 Group 13 Further Object-Oriented Programming
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Md Rezwan Hasan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018811_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250305T110000
+DTEND:20250305T130000
+SUMMARY:PC COMP5200 Group 13 Further Object-Oriented Programming
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Md Rezwan Hasan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018812_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250312T110000
+DTEND:20250312T130000
+SUMMARY:PC COMP5200 Group 13 Further Object-Oriented Programming
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Md Rezwan Hasan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018813_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250319T110000
+DTEND:20250319T130000
+SUMMARY:PC COMP5200 Group 13 Further Object-Oriented Programming
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Md Rezwan Hasan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018814_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250326T110000
+DTEND:20250326T130000
+SUMMARY:PC COMP5200 Group 13 Further Object-Oriented Programming
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Md Rezwan Hasan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018815_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250402T110000
+DTEND:20250402T130000
+SUMMARY:PC COMP5200 Group 13 Further Object-Oriented Programming
+LOCATION: OPC2
+DESCRIPTION:Taught by  Mr Md Rezwan Hasan\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC2\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018896_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250113T160000
+DTEND:20250113T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018897_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250114T120000
+DTEND:20250114T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018898_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250120T160000
+DTEND:20250120T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018899_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250121T120000
+DTEND:20250121T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018900_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250127T160000
+DTEND:20250127T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018901_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250128T120000
+DTEND:20250128T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018902_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250203T160000
+DTEND:20250203T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018903_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250204T120000
+DTEND:20250204T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018904_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250210T160000
+DTEND:20250210T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018905_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250211T120000
+DTEND:20250211T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018906_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250217T160000
+DTEND:20250217T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018907_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250218T120000
+DTEND:20250218T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018908_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250303T160000
+DTEND:20250303T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018909_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250304T120000
+DTEND:20250304T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018910_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250310T160000
+DTEND:20250310T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018911_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250311T120000
+DTEND:20250311T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018912_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250317T160000
+DTEND:20250317T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018913_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250318T120000
+DTEND:20250318T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018914_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250324T160000
+DTEND:20250324T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018915_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250325T120000
+DTEND:20250325T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018916_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250331T160000
+DTEND:20250331T170000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: CINEMA
+DESCRIPTION:Taught by  Mr David Barnes, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CINEMA\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500018917_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250401T120000
+DTEND:20250401T130000
+SUMMARY:LECTURE COMP5200 Further Object-Oriented Programming
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr David Barnes\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068560_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241120T110000
+DTEND:20241120T120000
+SUMMARY:WORKSHOP WCOMP002 Computing Industrial Practice Stage 1
+LOCATION: RLT1
+DESCRIPTION:Taught by  Mrs Annamarie Hall\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  9 AUTUMN-SPRING Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068561_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241127T110000
+DTEND:20241127T120000
+SUMMARY:WORKSHOP WCOMP002 Computing Industrial Practice Stage 1
+LOCATION: RLT1
+DESCRIPTION:Taught by  Mrs Annamarie Hall\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  10 AUTUMN-SPRING Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068577_14@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241105T100000
+DTEND:20241105T120000
+SUMMARY:PC WCOMP101 Group 11 Stage 1 Additional Content
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Mr Imad Mahaini, Doctor Nzechukwu Otuneme\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  7 AUTUMN-SPRING Term   Academic Week no. 14 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068578_30@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250224T130000
+DTEND:20250224T150000
+SUMMARY:PC WCOMP101 Group 11 Stage 1 Additional Content
+LOCATION: KENPC3
+DESCRIPTION:Taught by TBA\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  23 AUTUMN-SPRING Term   Academic Week no. 30 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068590_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250113T150000
+DTEND:20250113T170000
+SUMMARY:DROPIN WCOMP101 Stage 1 Additional Content
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Dan Bard, Doctor Matthew Boakes, Mr Sid Farmer\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  17 AUTUMN-SPRING Term   Academic Week no. 24 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068591_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250114T130000
+DTEND:20250114T150000
+SUMMARY:DROPIN WCOMP101 Stage 1 Additional Content
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Mr Dan Bard, Doctor Matthew Boakes, Mr Sid Farmer\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  17 AUTUMN-SPRING Term   Academic Week no. 24 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068592_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250116T150000
+DTEND:20250116T170000
+SUMMARY:DROPIN WCOMP101 Stage 1 Additional Content
+LOCATION: PPC1
+DESCRIPTION:Taught by  Mr Dan Bard, Doctor Matthew Boakes, Mr Sid Farmer\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PPC1\n\nWeek no  17 AUTUMN-SPRING Term   Academic Week no. 24 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068594_8@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240925T090000
+DTEND:20240925T100000
+SUMMARY:LECTURE WCOMP101 Stage 1 Additional Content
+LOCATION: KLT1
+DESCRIPTION:Taught by  Ms Janet Carter, Doctor Kemi Ademoye, Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  1 AUTUMN-SPRING Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068596_14@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241104T100000
+DTEND:20241104T110000
+SUMMARY:LECTURE WCOMP101 Stage 1 Additional Content
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr George Ramzi, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  7 AUTUMN-SPRING Term   Academic Week no. 14 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068597_14@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241104T110000
+DTEND:20241104T120000
+SUMMARY:LECTURE WCOMP101 Stage 1 Additional Content
+LOCATION: W-LT
+DESCRIPTION:Taught by  Mr George Ramzi, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  7 AUTUMN-SPRING Term   Academic Week no. 14 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068599_30@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250224T110000
+DTEND:20250224T120000
+SUMMARY:LECTURE WCOMP101 Stage 1 Additional Content
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr George Ramzi, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  23 AUTUMN-SPRING Term   Academic Week no. 30 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068600_30@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250225T090000
+DTEND:20250225T100000
+SUMMARY:LECTURE WCOMP101 Stage 1 Additional Content
+LOCATION: KLT1
+DESCRIPTION:Taught by  Mr George Ramzi, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT1\n\nWeek no  23 AUTUMN-SPRING Term   Academic Week no. 30 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500068601_30@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250228T110000
+DTEND:20250228T120000
+SUMMARY:LECTURE WCOMP101 Stage 1 Additional Content
+LOCATION: SIBLT3
+DESCRIPTION:Taught by  Mr George Ramzi, Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT3\n\nWeek no  23 AUTUMN-SPRING Term   Academic Week no. 30 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500084487_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241001T160000
+DTEND:20241001T180000
+SUMMARY:DROPIN COMP3220 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500084488_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241008T160000
+DTEND:20241008T180000
+SUMMARY:DROPIN COMP3220 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500084489_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241015T160000
+DTEND:20241015T180000
+SUMMARY:DROPIN COMP3220 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500084490_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241022T160000
+DTEND:20241022T180000
+SUMMARY:DROPIN COMP3220 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500084491_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241029T160000
+DTEND:20241029T180000
+SUMMARY:DROPIN COMP3220 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500084492_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241112T160000
+DTEND:20241112T180000
+SUMMARY:DROPIN COMP3220 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500084493_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241119T160000
+DTEND:20241119T180000
+SUMMARY:DROPIN COMP3220 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500084494_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241126T160000
+DTEND:20241126T180000
+SUMMARY:DROPIN COMP3220 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500084495_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241203T160000
+DTEND:20241203T180000
+SUMMARY:DROPIN COMP3220 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500084496_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241210T160000
+DTEND:20241210T180000
+SUMMARY:DROPIN COMP3220 Foundations of Computing I
+LOCATION: KENSR2
+DESCRIPTION:Taught by  Doctor Jie Shao\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENSR2\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500090834_9@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240930T150000
+DTEND:20240930T170000
+SUMMARY:DROPIN COMP3200 Introduction to Object-Oriented Programming
+LOCATION: MAR_116
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Mr Md Rezwan Hasan, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MAR_116\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500090835_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241007T150000
+DTEND:20241007T170000
+SUMMARY:DROPIN COMP3200 Introduction to Object-Oriented Programming
+LOCATION: MAR_116
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Mr Md Rezwan Hasan, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MAR_116\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500090836_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241014T150000
+DTEND:20241014T170000
+SUMMARY:DROPIN COMP3200 Introduction to Object-Oriented Programming
+LOCATION: MAR_116
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Mr Md Rezwan Hasan, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MAR_116\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500090837_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241021T150000
+DTEND:20241021T170000
+SUMMARY:DROPIN COMP3200 Introduction to Object-Oriented Programming
+LOCATION: MAR_116
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Mr Md Rezwan Hasan, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MAR_116\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500090838_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241028T150000
+DTEND:20241028T170000
+SUMMARY:DROPIN COMP3200 Introduction to Object-Oriented Programming
+LOCATION: MAR_116
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Mr Md Rezwan Hasan, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MAR_116\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500090839_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241111T150000
+DTEND:20241111T170000
+SUMMARY:DROPIN COMP3200 Introduction to Object-Oriented Programming
+LOCATION: MAR_116
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Mr Md Rezwan Hasan, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MAR_116\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500090840_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241118T150000
+DTEND:20241118T170000
+SUMMARY:DROPIN COMP3200 Introduction to Object-Oriented Programming
+LOCATION: MAR_116
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Mr Md Rezwan Hasan, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MAR_116\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500090841_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241125T150000
+DTEND:20241125T170000
+SUMMARY:DROPIN COMP3200 Introduction to Object-Oriented Programming
+LOCATION: MAR_116
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Mr Md Rezwan Hasan, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MAR_116\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500090843_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241209T150000
+DTEND:20241209T170000
+SUMMARY:DROPIN COMP3200 Introduction to Object-Oriented Programming
+LOCATION: MAR_116
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Mr Md Rezwan Hasan, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MAR_116\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500092288_10@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241011T160000
+DTEND:20241011T180000
+SUMMARY:DROPIN COMP3370 Computers and the Cloud
+LOCATION: OPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500092289_11@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241018T160000
+DTEND:20241018T180000
+SUMMARY:DROPIN COMP3370 Computers and the Cloud
+LOCATION: OPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC1\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500092290_12@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241025T160000
+DTEND:20241025T180000
+SUMMARY:DROPIN COMP3370 Computers and the Cloud
+LOCATION: OPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC1\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500092291_13@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241101T160000
+DTEND:20241101T180000
+SUMMARY:DROPIN COMP3370 Computers and the Cloud
+LOCATION: OPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500092292_15@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241115T160000
+DTEND:20241115T180000
+SUMMARY:DROPIN COMP3370 Computers and the Cloud
+LOCATION: OPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500092293_16@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241122T160000
+DTEND:20241122T180000
+SUMMARY:DROPIN COMP3370 Computers and the Cloud
+LOCATION: OPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC1\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500092294_17@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241129T160000
+DTEND:20241129T180000
+SUMMARY:DROPIN COMP3370 Computers and the Cloud
+LOCATION: OPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC1\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500092295_18@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241206T160000
+DTEND:20241206T180000
+SUMMARY:DROPIN COMP3370 Computers and the Cloud
+LOCATION: OPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500092296_19@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241213T160000
+DTEND:20241213T180000
+SUMMARY:DROPIN COMP3370 Computers and the Cloud
+LOCATION: OPC1
+DESCRIPTION:Taught by  Mr Matthew Hibbin\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=OPC1\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500093038_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250115T090000
+DTEND:20250115T110000
+SUMMARY:LECTURE WCOMP101 Stage 1 Additional Content
+LOCATION: W-LT
+DESCRIPTION:Taught by  Ms Janet Carter, Doctor Kemi Ademoye, Doctor David Castro-Perez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=W-LT\n\nWeek no  17 AUTUMN-SPRING Term   Academic Week no. 24 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500098330_25@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250123T100000
+DTEND:20250123T110000
+SUMMARY:WORKSHOP WCOMP002 Computing Industrial Practice Stage 1
+LOCATION: CHLT
+DESCRIPTION:Taught by  Mrs Annamarie Hall\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CHLT\n\nWeek no  18 AUTUMN-SPRING Term   Academic Week no. 25 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500098500_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250115T140000
+DTEND:20250115T160000
+SUMMARY:DROPIN WCOMP101 Stage 1 Additional Content
+LOCATION: SIBPC1
+DESCRIPTION:Taught by  Mr Dan Bard, Doctor Matthew Boakes, Mr Sid Farmer\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBPC1\n\nWeek no  17 AUTUMN-SPRING Term   Academic Week no. 24 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500098501_24@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250117T130000
+DTEND:20250117T150000
+SUMMARY:DROPIN WCOMP101 Stage 1 Additional Content
+LOCATION: JCS2, JCS3
+DESCRIPTION:Taught by  Mr Dan Bard, Doctor Matthew Boakes, Mr Sid Farmer\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=JCS2,JCS3\n\nWeek no  17 AUTUMN-SPRING Term   Academic Week no. 24 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500101898_26@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250128T140000
+DTEND:20250128T160000
+SUMMARY:DROPIN COMP5200 Further Object-Oriented Programming
+LOCATION: ECT1
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ECT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500101899_27@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250204T140000
+DTEND:20250204T160000
+SUMMARY:DROPIN COMP5200 Further Object-Oriented Programming
+LOCATION: ECT1
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ECT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500101900_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250211T140000
+DTEND:20250211T160000
+SUMMARY:DROPIN COMP5200 Further Object-Oriented Programming
+LOCATION: ECT1
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ECT1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500101901_29@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250218T140000
+DTEND:20250218T160000
+SUMMARY:DROPIN COMP5200 Further Object-Oriented Programming
+LOCATION: ECT1
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ECT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500101902_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250304T140000
+DTEND:20250304T160000
+SUMMARY:DROPIN COMP5200 Further Object-Oriented Programming
+LOCATION: ECT1
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ECT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500101903_32@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250311T140000
+DTEND:20250311T160000
+SUMMARY:DROPIN COMP5200 Further Object-Oriented Programming
+LOCATION: ECT1
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ECT1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500101904_33@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250318T140000
+DTEND:20250318T160000
+SUMMARY:DROPIN COMP5200 Further Object-Oriented Programming
+LOCATION: ECT1
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ECT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500101905_34@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250325T140000
+DTEND:20250325T160000
+SUMMARY:DROPIN COMP5200 Further Object-Oriented Programming
+LOCATION: ECT1
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ECT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500101906_35@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250401T140000
+DTEND:20250401T160000
+SUMMARY:DROPIN COMP5200 Further Object-Oriented Programming
+LOCATION: ECT1
+DESCRIPTION:Taught by  Mr Piotr Sawicki, Ms Lisa Davies\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ECT1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500102099_30@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250225T140000
+DTEND:20250225T150000
+SUMMARY:PRESENTATION  Microsoft EmbRACE Graduate Skills
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by TBA\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  30 EXTRA Term   Academic Week no. 30 ( week range 1 - 52 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500102442_28@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250212T130000
+DTEND:20250212T140000
+SUMMARY:WORKSHOP WCOMP002 Computing Industrial Practice Stage 1
+LOCATION: TLT
+DESCRIPTION:Taught by  Mrs Annamarie Hall\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  21 AUTUMN-SPRING Term   Academic Week no. 28 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:234834_202500102596_31@kent.ac.uk
+DTSTAMP:20250218T024528Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250305T130000
+DTEND:20250305T140000
+SUMMARY:WORKSHOP WCOMP002 Computing Industrial Practice Stage 1
+LOCATION: TLT
+DESCRIPTION:Taught by  Mrs Annamarie Hall\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  24 AUTUMN-SPRING Term   Academic Week no. 31 ( week range 8 - 50 )\nThis data was updated Feb 18 2025  2:45AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+END:VCALENDAR

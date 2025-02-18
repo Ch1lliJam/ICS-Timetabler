@@ -17,7 +17,10 @@ $filename = "{$user_id}.ics";
 downloadICSFile($user_id, $con);
 
 // Process the ICS file
-processICSFile($user_id, $filename);
+processICSFile($user_id, $filename, $con);
+
+// Redirect to the lectures page
+header('Location: view_lectures.php');
 
 
 

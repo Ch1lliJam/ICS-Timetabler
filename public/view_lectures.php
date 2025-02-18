@@ -12,7 +12,7 @@ if (!$user_data) {
 $user_id = $user_data['user_id'];
 
 // Fetch lectures from the database
-$query = "SELECT * FROM lectures WHERE user_id = ?";
+$query = "SELECT * FROM lectures WHERE user_id = ? ORDER BY day";
 $stmt = $con->prepare($query);
 $stmt->bind_param("i", $user_id);
 $stmt->execute();
@@ -20,11 +20,6 @@ $result = $stmt->get_result();
 $lectures = $result->fetch_all(MYSQLI_ASSOC);
 $stmt->close();
 date_default_timezone_set('Europe/London');
-
-// Capitalize the first character of each lecture's day
-foreach ($lectures as &$lecture) {
-    $lecture['day'] = ucfirst($lecture['day']);
-}
 
 $lecturesJson = json_encode($lectures);
 
@@ -119,9 +114,15 @@ $lecturesJson = json_encode($lectures);
 
                 const des = document.createElement('div');
                 des.className = 'des';
+                const lectureDate = new Date(lecture.lecture_date);
+                const formattedDate = lectureDate.toLocaleDateString('en-GB', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric'
+                }).replace(/(\d+)(st|nd|rd|th)?/, '$1' + getOrdinalSuffix(lectureDate.getDate()));
                 des.innerHTML = `
                     <p><strong>${lecture.module_code}</strong></p>
-                    <p>${lecture.day}</p>
+                    <p>${formattedDate}</p>
                     <p>${lecture.start_time} - ${lecture.end_time}</p>
                     <p>${lecture.location}</p>
                 `;
@@ -161,6 +162,16 @@ $lecturesJson = json_encode($lectures);
                 lectureContainer.appendChild(item);
             });
         });
+
+        function getOrdinalSuffix(day) {
+            if (day > 3 && day < 21) return 'th';
+            switch (day % 10) {
+                case 1: return "st";
+                case 2: return "nd";
+                case 3: return "rd";
+                default: return "th";
+            }
+        }
         </script>
 
         <script>
