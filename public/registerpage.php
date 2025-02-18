@@ -7,7 +7,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $password = trim($_POST['password']);
     $email = trim($_POST['email']);
     $ics_link = trim($_POST['ics_link']);
-    $new_user = 1;
 
     // Email validation (stronger regex)
     $email_regex = "/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/";
@@ -43,9 +42,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $user_id = getNextAvailableUserId();
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-            $query = "INSERT INTO users (user_id, user_name, password, email, ics_link, new_user) VALUES (?, ?, ?, ?, ?, ?)";
+            $query = "INSERT INTO users (user_id, user_name, password, email, ics_link) VALUES (?, ?, ?, ?, ?)";
             $stmt = $con->prepare($query);
-            $stmt->bind_param("isssss", $user_id, $user_name, $hashedPassword, $email, $ics_link, $new_user);
+            $stmt->bind_param("issss", $user_id, $user_name, $hashedPassword, $email, $ics_link);
 
             if ($stmt->execute()) {
                 echo "<script>alert('Registration successful! Redirecting to login.'); window.location.href='loginpage.php';</script>";

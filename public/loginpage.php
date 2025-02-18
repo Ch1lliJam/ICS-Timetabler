@@ -22,32 +22,17 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
             if ($verify) {
                 $_SESSION['user_id'] = $user_data['user_id'];
-                if ($user_data['new_user'] == 1) {
-                    $user_id = $user_data['user_id'];
-                    $filename = "{$user_id}.ics";
-                    downloadICSFile($user_id, $con);
-                    $errorchecking = processICSFile($user_id, $filename, $con);
-                    if($errorchecking == 1){
-                        echo "<script>alert('ICS file processed successfully!');</script>";
-                    } else {
-                        echo "<script>alert('Error processing ICS file.');</script>";
-                    }
-                    // Redirect to the lectures page
-                    
-                    $query = "UPDATE users SET new_user = ? WHERE user_name = ?";
-                    $stmt = $con->prepare($query);
-                    $new_user_value = false;
-                    $stmt->bind_param("is", $new_user_value,$user_name);
-                    $stmt->execute();
-                    $stmt->close();
-                    
-                    header('Location: view_lectures.php');
-                    exit;
-                }
-                else{
-                    header("Location: view_lectures.php");
-                    exit;
-                }
+                $user_id = $user_data['user_id'];
+                $filename = "{$user_id}.ics";
+                downloadICSFile($user_id, $con);
+                $errorchecking = processICSFile($user_id, $filename, $con);
+                if($errorchecking == 1){
+                    echo "<script>alert('Timetable updated successfully!'); window.location.href='view_lectures.php';</script>";
+                } else {
+                    echo "<script>alert('Error processing ICS file.');</script>";
+                } 
+                exit;
+
             } else {
                 echo '<script type="text/javascript">
                 alert("Invalid username or password.");

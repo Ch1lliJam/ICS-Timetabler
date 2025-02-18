@@ -46,7 +46,7 @@ function processICSFile($user_id, $filename, $con) {
     $file_path = "../private/{$filename}";
 
     if (!file_exists($file_path)) {
-        die("ICS file not found.");
+        return false;
     }
 
     $ical = file_get_contents($file_path);
@@ -103,12 +103,14 @@ function processICSFile($user_id, $filename, $con) {
         return strtotime($a['DTSTART']) - strtotime($b['DTSTART']);
     });
 
-    $lecturesAdded = 0;
-    foreach ($events as $event) {
-        $now = date('Y-m-d H:i:s'); // Current date and time
-        $eventdate = date('Y-m-d H:i:s', strtotime($event['DTSTART'])); // User-friendly date
+    // Remove old lectures
+    removeOldLectures($user_id, $con);
 
-        if ($eventdate >= $now) {
+    // Remove past lectures and add new ones
+    $newEvents = checkForNewLectures($user_id, $con, $events);
+
+    if (count($newEvents) > 0) {
+        foreach ($newEvents as $event) {
             $module_code = $event['COURSE_CODE'];
             $module_name = $event['COURSE_TITLE'];
             $day = $event['START_DATE'];
@@ -139,19 +141,59 @@ function processICSFile($user_id, $filename, $con) {
                 $maps_link
             );
 
-            if ($stmt->execute()) {
-                $lecturesAdded++;
-            } else {
+            if (!$stmt->execute()) {
                 echo "Error: " . $stmt->error;
+                $stmt->close();
+                return false;
             }
             $stmt->close();
         }
-    }
-    
-    if ($lecturesAdded > 0) {
         return true;
     } else {
-        return false;
+        return true;
     }
 }
-?>
+
+function checkForNewLectures($user_id, $con, $events) {
+    // Get the last lecture date for the user
+    $query = "SELECT MAX(day) AS last_lecture FROM lectures WHERE user_id = ?";
+    $stmt = $con->prepare($query);
+    $stmt->bind_param("i", $user_id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result && $result->num_rows > 0) {
+        $user_data = $result->fetch_assoc();
+        $last_lecture = $user_data['last_lecture'];
+    } else {
+        $last_lecture = null;
+    }
+    $stmt->close();
+
+    // Filter out events that are before the last lecture date
+    $newEvents = [];
+    foreach ($events as $event) {
+        $eventDateTime = DateTime::createFromFormat('Y-m-d H:i:s', $event['START_DATE'] . ' ' . $event['START_TIME']);
+        if ($last_lecture === null || $eventDateTime > new DateTime($last_lecture)) {
+            $newEvents[] = $event;
+        }
+    }
+
+    return $newEvents;
+}
+
+
+//function to remove lectures before the current date and time
+function removeOldLectures($user_id, $con) {
+    // Get the current date and time
+    $currentDateTime = date('Y-m-d H:i:s');
+    // Query to delete lectures before the current date and time for the specified user_id
+    $query = "DELETE FROM lectures WHERE user_id = ? AND CONCAT(day, ' ', start_time) < ?";
+    $stmt = $con->prepare($query);
+    $stmt->bind_param("is", $user_id, $currentDateTime);
+    $result = $stmt->execute();
+    $stmt->close();
+
+    return $result;
+}
+
