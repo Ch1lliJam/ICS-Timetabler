@@ -110,43 +110,47 @@ function processICSFile($user_id, $filename, $con) {
     $newEvents = checkForNewLectures($user_id, $con, $events);
 
     if (count($newEvents) > 0) {
+        $currentDateTime = new DateTime();
         foreach ($newEvents as $event) {
-            $module_code = $event['COURSE_CODE'];
-            $module_name = $event['COURSE_TITLE'];
-            $day = $event['START_DATE'];
-            $location = $event['LOCATION'];
-            $start_time = $event['START_TIME'];
-            $end_time = $event['END_TIME'];
-            $onedrive_link = 'https://livekentac-my.sharepoint.com/my';
-            $moodle_link = 'https://moodle.kent.ac.uk';
-            $presto_link = 'https://attendance.kent.ac.uk/selfregistration';
-            $maps_link = 'https://www.google.com/maps/search/?api=1&query='.$location;
+            $eventDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['START_DATE'] . ' ' . $event['START_TIME']);
+            if ($eventDateTime > $currentDateTime) {
+                $module_code = $event['COURSE_CODE'];
+                $module_name = $event['COURSE_TITLE'];
+                $day = $event['START_DATE'];
+                $location = $event['LOCATION'];
+                $start_time = $event['START_TIME'];
+                $end_time = $event['END_TIME'];
+                $onedrive_link = 'https://livekentac-my.sharepoint.com/my';
+                $moodle_link = 'https://moodle.kent.ac.uk';
+                $presto_link = 'https://attendance.kent.ac.uk/selfregistration';
+                $maps_link = 'https://www.google.com/maps/search/?api=1&query='.$location;
 
-            // Insert into the database
-            $query = "INSERT INTO lectures (user_id, module_code, module_name, day, location, start_time, end_time, onedrive_link, moodle_link, presto_link, maps_link) 
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-            $stmt = $con->prepare($query);
-            $stmt->bind_param(
-                "issssssssss",
-                $user_id,
-                $module_code,
-                $module_name,
-                $day,
-                $location,
-                $start_time,
-                $end_time,
-                $onedrive_link,
-                $moodle_link,
-                $presto_link,
-                $maps_link
-            );
+                // Insert into the database
+                $query = "INSERT INTO lectures (user_id, module_code, module_name, day, location, start_time, end_time, onedrive_link, moodle_link, presto_link, maps_link) 
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                $stmt = $con->prepare($query);
+                $stmt->bind_param(
+                    "issssssssss",
+                    $user_id,
+                    $module_code,
+                    $module_name,
+                    $day,
+                    $location,
+                    $start_time,
+                    $end_time,
+                    $onedrive_link,
+                    $moodle_link,
+                    $presto_link,
+                    $maps_link
+                );
 
-            if (!$stmt->execute()) {
-                echo "Error: " . $stmt->error;
+                if (!$stmt->execute()) {
+                    echo "Error: " . $stmt->error;
+                    $stmt->close();
+                    return false;
+                }
                 $stmt->close();
-                return false;
             }
-            $stmt->close();
         }
         return true;
     } else {
