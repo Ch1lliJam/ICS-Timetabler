@@ -113,16 +113,10 @@ $lecturesJson = json_encode($lectures);
                 name.textContent = lecture.module_name;
 
                 const des = document.createElement('div');
-                des.className = 'des';
-                const lectureDate = new Date(lecture.lecture_date);
-                const formattedDate = lectureDate.toLocaleDateString('en-GB', {
-                    day: 'numeric',
-                    month: 'long',
-                    year: 'numeric'
-                }).replace(/(\d+)(st|nd|rd|th)?/, '$1' + getOrdinalSuffix(lectureDate.getDate()));
+                des.className = 'des';      
                 des.innerHTML = `
                     <p><strong>${lecture.module_code}</strong></p>
-                    <p>${formattedDate}</p>
+                    <p>${lecture.day}</p>
                     <p>${lecture.start_time} - ${lecture.end_time}</p>
                     <p>${lecture.location}</p>
                 `;
@@ -163,21 +157,12 @@ $lecturesJson = json_encode($lectures);
             });
         });
 
-        function getOrdinalSuffix(day) {
-            if (day > 3 && day < 21) return 'th';
-            switch (day % 10) {
-                case 1: return "st";
-                case 2: return "nd";
-                case 3: return "rd";
-                default: return "th";
-            }
-        }
         </script>
 
         <script>
             console.log("Lectures:", lectures);
         </script>
-        <!-- <script src="app.js"></script> -->
+        <script src="app.js"></script>
 
         <!-- Navigation Buttons -->
         <div class="button">
