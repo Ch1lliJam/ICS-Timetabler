@@ -108,7 +108,7 @@ function processICSFile($user_id, $filename, $con) {
         $now = date('Y-m-d H:i:s'); // Current date and time
         $eventdate = date('Y-m-d H:i:s', strtotime($event['DTSTART'])); // User-friendly date
 
-        if ($eventdate > $now) {
+        if ($eventdate >= $now) {
             $module_code = $event['COURSE_CODE'];
             $module_name = $event['COURSE_TITLE'];
             $day = $event['START_DATE'];
@@ -147,16 +147,11 @@ function processICSFile($user_id, $filename, $con) {
             $stmt->close();
         }
     }
+    
     if ($lecturesAdded > 0) {
-        echo "<script>
-                alert('Lectures added successfully!');
-                window.location.href = 'view_lectures.php';
-              </script>";
+        return true;
     } else {
-        echo "<script>
-                alert('No new lectures were added.');
-                window.location.href = 'view_lectures.php';
-              </script>";
+        return false;
     }
 }
 ?>
