@@ -1,26 +1,12 @@
 # ICS-Timetabler
 
 Todo:
-- make it generate a random name for the cal_data for each user
-- upload all data from the processed ical data
+- ~~make it generate a random name for the cal_data for each user~~
+- ~~Update ics_processor to write all processed data to database, need to provide user data to find correct location to upload data ~~
 - allow a way for user to update multiple/all lectures
-
-- Automatic download of new timetables for all users every set period of time
-- (can use cron jobs, look into it)
-- (need to check to see if timetable data has changed from last check such as new lectures, if so update, otherwise don't)
-
-- Update ics_processor to write all processed data to database, need to provide
-- user data to find correct location to upload data
-
+- Automatic download of new timetables for all users every set period of time (can use cron jobs, look into it) (need to check to see if timetable data has changed from last check such as new lectures, if so update, otherwise don't)
 - add anything else that might need work on
 
-Howto test:
-- login with an account
-- then direct browser to test_ical_func.php
+How to test ical functionality:
+- login with a created account
 
-Onedrive link - https://livekentac-my.sharepoint.com/my
-Attendance link - https://attendance.kent.ac.uk/selfregistration
-
-- need to find app.js
-- need to fix date logic issue in view_lectures.php, likely issue with code in view_lectures
-- need
