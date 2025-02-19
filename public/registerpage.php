@@ -13,11 +13,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $password_regex = "/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/"; // Minimum 8 chars, 1 letter, 1 number, 1 special char
     $username_regex = "/^[a-zA-Z0-9_]{3,20}$/"; // Only alphanumeric and underscore, 3-20 chars
     
-    // Validate ICS link
-    function validate_ics_link($link) {
-        $pattern = "/^webcal:\/\/www\.kent\.ac\.uk\/timetabling\/ical\/\d+\.ics$/";
-        return preg_match($pattern, $link);
-    }
 
     // If all fields are provided and valid
     if (!empty($user_name) && !empty($password) && !empty($email) && !empty($ics_link) &&

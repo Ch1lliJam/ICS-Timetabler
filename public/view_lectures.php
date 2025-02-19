@@ -49,7 +49,6 @@ $lecturesJson = json_encode($lectures);
 
             <a class="home-link" href="view_lectures.php">ChilliJam</a>
             <a class="active" href="view_lectures.php">Lectures</a>
-            <a href="add_lecture.php">Add Lecture</a>
             <a href="modify_lectures.php">Edit Lectures</a>
             <a href="logout.php">Log out</a>
         </div>

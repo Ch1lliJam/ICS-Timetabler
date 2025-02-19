@@ -41,3 +41,9 @@ function getNextAvailableUserId() {
         return $nextUserId;
     }
 }
+
+// Validate ICS link
+function validate_ics_link($link) {
+    $pattern = "/^webcal:\/\/www\.kent\.ac\.uk\/timetabling\/ical\/\d+\.ics$/";
+    return preg_match($pattern, $link);
+}
