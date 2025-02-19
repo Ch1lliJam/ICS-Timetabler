@@ -122,90 +122,103 @@ function filterAndDisplayLectures() {
 
         sortedLectures = lectures;
         // Populate the lecture items with the filtered lectures
-        const items = document.querySelectorAll('.item');
-        items.forEach((item, index) => {
-            try {
-                //index = index - 1; // Subtract 1 to account for the fake lecture
-                if (index < sortedLectures.length) {
-                    console.log(`Populating lecture item at index ${index}`);
-                    const lecture = sortedLectures[index];
-                    const content = item.querySelector('.content');
-                    if (!content) throw new Error('Content element not found');
+        const lectureContainer = document.getElementById('lecture-container');
+        lectureContainer.innerHTML = ''; // Clear existing lectures
 
-                    const name = content.querySelector('.name');
-                    if (!name) throw new Error('Name element not found');
+        sortedLectures.forEach((lecture, index) => {
+            const item = document.createElement('div');
+            item.className = 'item';
+            item.style.backgroundImage = 'url(image/default.jpg)';
 
-                    const des = content.querySelector('.des');
-                    if (!des) throw new Error('Description element not found');
+            const content = document.createElement('div');
+            content.className = 'content';
 
-                    name.textContent = lecture.module_name;
-                    des.innerHTML = `
-                        <p><strong>${lecture.module_code}</strong></p>
-                        <p>${lecture.day}</p>
-                        <p>${lecture.start_time} - ${lecture.end_time}</p>
-                        <p>${lecture.location}</p>
-                    `;
+            const name = document.createElement('div');
+            name.className = 'name';
+            name.textContent = lecture.module_name;
 
-                    // Set the background image based on the module code
-                    const imageUrl = moduleImages[lecture.module_code];
-                    if (imageUrl) {
-                        item.style.backgroundImage = `url(image/${imageUrl})`;
-                    } else {
-                        console.warn(`Image URL not found for module code: ${lecture.module_code}`);
-                        item.style.backgroundImage = 'url(image/WIP_image.jpg)';
-                    }
+            const des = document.createElement('div');
+            des.className = 'des';
+            des.innerHTML = `
+                <p><strong>${lecture.module_code}</strong></p>
+                <p>${lecture.day}</p>
+                <p>${lecture.start_time} - ${lecture.end_time}</p>
+                <p>${lecture.location}</p>
+            `;
 
-                    // Set the href attributes for the buttons
-                    const onedriveBtn = item.querySelector('.onedrive-btn');
-                    const moodleBtn = item.querySelector('.moodle-btn');
-                    const prestoBtn = item.querySelector('.presto-btn');
-                    const mapBtn = item.querySelector('.map-btn');
-
-                    if (onedriveBtn) onedriveBtn.setAttribute('href', lecture.onedrive_link);
-                    if (moodleBtn) moodleBtn.setAttribute('href', lecture.moodle_link);
-                    if (prestoBtn) prestoBtn.setAttribute('href', lecture.presto_link);
-                    if (mapBtn) mapBtn.setAttribute('href', lecture.maps_link);
-
-                    // Ensure the links open in a new tab
-                    if (onedriveBtn) onedriveBtn.setAttribute('target', '_blank');
-                    if (moodleBtn) moodleBtn.setAttribute('target', '_blank');
-                    if (prestoBtn) prestoBtn.setAttribute('target', '_blank');
-                    if (mapBtn) mapBtn.setAttribute('target', '_blank');
-
-                    // Add fade-in effect
-                    des.classList.add('fade-in');
-                    onedriveBtn.classList.add('fade-in');
-                    moodleBtn.classList.add('fade-in');
-                    prestoBtn.classList.add('fade-in');
-                    mapBtn.classList.add('fade-in');
-
-                } else if (index === sortedLectures.length) {
-                    const loadMoreItem = document.createElement('div');
-                    loadMoreItem.className = 'item';
-                    loadMoreItem.style.backgroundImage = 'url(image/no_lecture.jpeg)';
-                    loadMoreItem.innerHTML = `
-                        <div class="content">
-                            <div class="name">Lecture limit reached</div>
-                            <div class="des">Would you like to load more?</div>
-                            <a class="load-more-btn" href="#" id="load-more-btn">Load More</a>
-                        </div>
-                    `;
-                    lectureContainer.appendChild(loadMoreItem);
-        
-
-                    document.getElementById('load-more-btn').addEventListener('click', function (e) {
-                        e.preventDefault();
-                        limit += 20;
-                        //fetchLectures(offset, limit);
-                        loadMoreItem.remove(); // Remove the "Load More" item after clicking
-                    });
-                }
-            } catch (error) {
-                console.error(`Error populating lecture item at index ${index}:`, error);
+            // Set the background image based on the module code
+            const imageUrl = moduleImages[lecture.module_code];
+            if (imageUrl) {
+                item.style.backgroundImage = `url(image/${imageUrl})`;
+            } else {
+                console.warn(`Image URL not found for module code: ${lecture.module_code}`);
+                item.style.backgroundImage = 'url(image/WIP_image.jpg)';
             }
-        });
-        console.log(`Total lectures to display: ${lectures.length}`);
 
+            // Set the href attributes for the buttons
+            const onedriveBtn = document.createElement('a');
+            onedriveBtn.className = 'onedrive-btn';
+            onedriveBtn.href = lecture.onedrive_link || '#';
+            onedriveBtn.target = '_blank';
+            onedriveBtn.innerHTML = '<img src="image/onedrive_icon.png" alt="OneDrive Icon"> OneDrive';
+
+            const moodleBtn = document.createElement('a');
+            moodleBtn.className = 'moodle-btn';
+            moodleBtn.href = lecture.moodle_link || '#';
+            moodleBtn.target = '_blank';
+            moodleBtn.innerHTML = '<img src="image/moodle_icon.png" alt="Moodle Icon"> Moodle';
+
+            const prestoBtn = document.createElement('a');
+            prestoBtn.className = 'presto-btn';
+            prestoBtn.href = lecture.presto_link || '#';
+            prestoBtn.target = '_blank';
+            prestoBtn.innerHTML = '<img src="image/presto_icon.png" alt="Presto Icon"> Presto';
+
+            const mapBtn = document.createElement('a');
+            mapBtn.className = 'map-btn';
+            mapBtn.href = lecture.maps_link || '#';
+            mapBtn.target = '_blank';
+            mapBtn.innerHTML = '<img src="image/maps_icon.png" alt="Map Icon"> Map';
+
+            content.appendChild(name);
+            content.appendChild(des);
+            content.appendChild(onedriveBtn);
+            content.appendChild(moodleBtn);
+            content.appendChild(prestoBtn);
+            content.appendChild(mapBtn);
+
+            item.appendChild(content);
+            lectureContainer.appendChild(item);
+
+            // Add fade-in effect
+            des.classList.add('fade-in');
+            onedriveBtn.classList.add('fade-in');
+            moodleBtn.classList.add('fade-in');
+            prestoBtn.classList.add('fade-in');
+            mapBtn.classList.add('fade-in');
+        });
+
+        // Add "Load More" button if there are more lectures to load
+        if (sortedLectures.length === limit) {
+            const loadMoreItem = document.createElement('div');
+            loadMoreItem.className = 'item';
+            loadMoreItem.style.backgroundImage = 'url(image/no_lecture.jpeg)';
+            loadMoreItem.innerHTML = `
+                <div class="content">
+                    <div class="name">Lecture limit reached</div>
+                    <div class="des">Would you like to load more?</div>
+                    <a class="load-more-btn" href="#" id="load-more-btn">Load More</a>
+                </div>
+            `;
+            lectureContainer.appendChild(loadMoreItem);
+
+            document.getElementById('load-more-btn').addEventListener('click', function (e) {
+                e.preventDefault();
+                limit += 20;
+                fetchLectures(limit);
+                loadMoreItem.remove(); // Remove the "Load More" item after clicking
+            });
+        }
     } catch (error) {
         console.error('Error filtering and displaying lectures:', error);
     }
