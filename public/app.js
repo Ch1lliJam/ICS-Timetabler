@@ -1,4 +1,4 @@
-
+let limit = 20;
 
 
 
@@ -104,10 +104,7 @@ function filterAndDisplayLectures() {
         const currentDate = new Date();
         const currentTime = getCurrentTimeUK();
         if (!currentDate || !currentTime) throw new Error('Failed to get current day or time');
-
-        const currentDateString = currentDate.toISOString().split('T')[0];
         console.log(`Total lectures fetched: ${lectures.length}`);
-        console.log('Filtering lectures for:', currentDateString, currentTime);
 
         // Add a fake lecture as a filler for 18th feb 2025 at 12:00 AM
         const fakeLecture = {
@@ -123,41 +120,7 @@ function filterAndDisplayLectures() {
             maps_link: "#",
         };
 
-        // Filter lectures based on the current date and time
-        const upcomingLectures = lectures.filter(lecture => {
-            const lectureDate = new Date(lecture.day);
-            const lectureDateString = lectureDate.toISOString().split('T')[0];
-            const isToday = lectureDateString === currentDateString;
-            const isFuture = lectureDate > currentDate;
-            const isUpcomingToday = isToday && isBeforeTime(currentTime, lecture.end_time);
-            const isUpcoming = isFuture || isUpcomingToday;
-            console.log(`Lecture: ${lecture.module_name}, Day: ${lecture.day}, Is Today: ${isToday}, Is Future: ${isFuture}, Is Upcoming Today: ${isUpcomingToday}, Is Upcoming: ${isUpcoming}`);
-            return isUpcoming;
-        });
-
-
-
-        console.log(`Total lectures to display: ${upcomingLectures.length}`);
-        console.log('Upcoming Lectures:', upcomingLectures);
-
-        // Sort the filtered lectures by date, then by start time
-        const sortedLectures = upcomingLectures.sort((a, b) => {
-            const dayA = new Date(a.day);
-            const dayB = new Date(b.day);
-
-            if (dayA.getTime !== dayB.getTime) {
-                return dayA - dayB; // Sort by day index
-            }
-
-            // If the days are the same, sort by start time
-            const startTimeA = new Date(`1970-01-01T${a.start_time}:00`);
-            const startTimeB = new Date(`1970-01-01T${b.start_time}:00`);
-            return startTimeA - startTimeB;
-        });
-
-        console.log('Sorted Lectures:', upcomingLectures);
-        console.log('Sorted Lectures length:', sortedLectures.length);
-
+        sortedLectures = lectures;
         // Populate the lecture items with the filtered lectures
         const items = document.querySelectorAll('.item');
         items.forEach((item, index) => {
@@ -216,17 +179,26 @@ function filterAndDisplayLectures() {
                     prestoBtn.classList.add('fade-in');
                     mapBtn.classList.add('fade-in');
 
-                } else {
-                    // Set the background image to no_lecture.jpg if there are no more upcoming lectures
-                    item.style.backgroundImage = 'url(image/no_lecture.jpeg)';
-                    const content = item.querySelector('.content');
-                    const name = content.querySelector('.name');
-                    const des = content.querySelector('.des');
-                    name.textContent = 'The City Survives';
-                    des.innerHTML = 'We survived one more week of Whiteouts, but more are forecast from Monday. <br> Good Luck Captain.';
-                    // Remove the <a> links
-                    const links = content.querySelectorAll('a');
-                    links.forEach(link => link.remove());
+                } else if (index === sortedLectures.length) {
+                    const loadMoreItem = document.createElement('div');
+                    loadMoreItem.className = 'item';
+                    loadMoreItem.style.backgroundImage = 'url(image/no_lecture.jpeg)';
+                    loadMoreItem.innerHTML = `
+                        <div class="content">
+                            <div class="name">Lecture limit reached</div>
+                            <div class="des">Would you like to load more?</div>
+                            <a class="load-more-btn" href="#" id="load-more-btn">Load More</a>
+                        </div>
+                    `;
+                    lectureContainer.appendChild(loadMoreItem);
+        
+
+                    document.getElementById('load-more-btn').addEventListener('click', function (e) {
+                        e.preventDefault();
+                        limit += 20;
+                        //fetchLectures(offset, limit);
+                        loadMoreItem.remove(); // Remove the "Load More" item after clicking
+                    });
                 }
             } catch (error) {
                 console.error(`Error populating lecture item at index ${index}:`, error);

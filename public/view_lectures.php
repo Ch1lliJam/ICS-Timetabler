@@ -5,25 +5,18 @@ require '../private/autoload.php';
 // Check if the user is logged in
 $user_data = check_login($con);
 if (!$user_data) {
-    header("Location: login.html");
+    header("Location: loginpage.php");
     exit;
 }
-
 $user_id = $user_data['user_id'];
+$limit = 20;
+
+// remove old lectures
+removeOldLectures($user_id, $con);
 
 // Fetch lectures from the database
-$offset = isset($_GET['offset']) ? intval($_GET['offset']) : 0;
-$limit = 20;
-$query = "SELECT * FROM lectures WHERE user_id = ? LIMIT ?, ?";
-$stmt = $con->prepare($query);
-$stmt->bind_param("iii", $user_id, $offset, $limit);
-$stmt->execute();
-$result = $stmt->get_result();
-$lectures = $result->fetch_all(MYSQLI_ASSOC);
-$stmt->close();
+$lecturesJson = get_next20_lectures($con, $user_id, $limit);
 date_default_timezone_set('Europe/London');
-
-$lecturesJson = json_encode($lectures);
 
 ?>
 
@@ -75,23 +68,7 @@ $lecturesJson = json_encode($lectures);
 
         document.addEventListener('DOMContentLoaded', function() {
             const lectureContainer = document.getElementById('lecture-container');
-            let offset = 0;
-            const limit = 20;
 
-            // Function to fetch lectures from the server
-            function fetchLectures(offset, limit) {
-                fetch(`view_lectures.php?offset=${offset}&limit=${limit}&ajax=1`)
-                    .then(response => response.json())
-                    .then(data => {
-                        displayLectures(data);
-                        if (data.length === limit) {
-                            showLoadMoreButton();
-                        } else {
-                            hideLoadMoreButton();
-                        }
-                    })
-                    .catch(error => console.error('Error fetching lectures:', error));
-            }
 
             // Create placeholder item
             const placeholderItem = document.createElement('div');
@@ -173,27 +150,7 @@ $lecturesJson = json_encode($lectures);
                 item.appendChild(content);
                 lectureContainer.appendChild(item);
             });
-            // Add "Load More" lecture item
-            if (lectures.length === limit) {
-                const loadMoreItem = document.createElement('div');
-                loadMoreItem.className = 'item';
-                loadMoreItem.style.backgroundImage = 'url(image/default.jpg)';
-                loadMoreItem.innerHTML = `
-                    <div class="content">
-                        <div class="name">Load More Lectures</div>
-                        <div class="des"></div>
-                        <a class="load-more-btn" href="#" id="load-more-btn">Load More</a>
-                    </div>
-                `;
-                lectureContainer.appendChild(loadMoreItem);
 
-                document.getElementById('load-more-btn').addEventListener('click', function (e) {
-                    e.preventDefault();
-                    offset += limit;
-                    fetchLectures(offset, limit);
-                    loadMoreItem.remove(); // Remove the "Load More" item after clicking
-                });
-            }
         });
 
         </script>

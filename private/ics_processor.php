@@ -1,4 +1,5 @@
 <?php
+require 'connection.php';
 function downloadICSFile($user_id, $con) {
     // Retrieve the ics_link from the database
     $query = "SELECT ics_link FROM users WHERE user_id = ?";
@@ -190,12 +191,23 @@ function checkForNewLectures($user_id, $con, $events) {
 //function to remove lectures before the current date and time
 function removeOldLectures($user_id, $con) {
     // Get the current date and time
-    $currentDateTime = date('Y-m-d H:i:s');
+    $currentDateTime = date('Y-m-d H:i');
+
     // Query to delete lectures before the current date and time for the specified user_id
     $query = "DELETE FROM lectures WHERE user_id = ? AND CONCAT(day, ' ', start_time) < ?";
     $stmt = $con->prepare($query);
+
+    if (!$stmt) {
+        die("Prepare failed: (" . $con->errno . ") " . $con->error);
+    }
+
     $stmt->bind_param("is", $user_id, $currentDateTime);
-    $result = $stmt->execute();
+
+    if (!$stmt->execute()) {
+        die("Execute failed: (" . $stmt->errno . ") " . $stmt->error);
+    }
+
+    $result = $stmt->affected_rows;
     $stmt->close();
 
     return $result;
