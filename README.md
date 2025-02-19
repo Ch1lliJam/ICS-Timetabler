@@ -9,7 +9,7 @@
 
 - scraping algorithm to find the correct webpage for the specific module then direct user there
 
-- limiting max lectures shown at once to 20, then allowing user to do 20 more etc
+- limiting max lectures shown at once to 20, then allowing user to do 20 more etc (temp solution limiting to 20, need to probably move retrieve function to functions.php, then just ask it to retrieve more when function called)
 
 - add settings page to let user customise settings
 
