@@ -113,11 +113,11 @@ function processICSFile($user_id, $filename, $con) {
     if (count($newEvents) > 0) {
         $currentDateTime = new DateTime();
         foreach ($newEvents as $event) {
-            $eventEndDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['END_DATE'] . ' ' . $event['END_TIME']);
-            $eventStartDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['START_DATE'] . ' ' . $event['START_TIME']);
+            $eventEndDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['END_DATE'] . ' ' . ($event['END_TIME']));
+            $eventStartDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['START_DATE'] . ' ' . ($event['START_TIME']));
 
             // Check if the event is on the same day and if the end time has not passed
-            if ($eventEndDateTime > $currentDateTime || ($eventStartDateTime->format('Y-m-d') === $currentDateTime->format('Y-m-d') && $eventEndDateTime > $currentDateTime)) {
+            if ($eventEndDateTime > $currentDateTime || ($eventStartDateTime <= $currentDateTime && $eventEndDateTime >= $currentDateTime)) {
                 $module_code = $event['COURSE_CODE'];
                 $module_name = $event['COURSE_TITLE'];
                 $day = $event['START_DATE'];

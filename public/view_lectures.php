@@ -9,7 +9,6 @@ if (!$user_data) {
     exit;
 }
 $user_id = $user_data['user_id'];
-$limit = 20;
 
 // remove old lectures
 removeOldLectures($user_id, $con);

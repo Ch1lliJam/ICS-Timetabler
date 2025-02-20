@@ -42,8 +42,16 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $stmt->bind_param("issss", $user_id, $user_name, $hashedPassword, $email, $ics_link);
 
             if ($stmt->execute()) {
-                echo "<script>alert('Registration successful! Redirecting to login.'); window.location.href='loginpage.php';</script>";
+                $filename = "{$user_id}.ics";
+                downloadICSFile($user_id, $con);
+                $errorchecking = processICSFile($user_id, $filename, $con);
+                if($errorchecking == 1){
+                    echo "<script>alert('Registration successful! Redirecting to login.'); window.location.href='loginpage.php';</script>";
+                } else {
+                    echo "<script>alert('Error processing ICS file.');</script>";
+                } 
                 exit;
+                
             } else {
                 echo "<script>alert('Error saving to database.');</script>";
             }

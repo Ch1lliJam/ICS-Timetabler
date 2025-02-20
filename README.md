@@ -3,7 +3,7 @@
 ### Working on:
 
 
-- weird deletion of lectures by the processICSFile if the time is getting close to the next lecture (maybe fixed, check when near lectures/2 hour lectures)
+- weird deletion of lectures by the removeOldLectures function if the time is getting close to the next lecture, or if within lecture time (maybe fixed, check when near lectures/2 hour lectures)
 
 
 ### Todo:
@@ -11,8 +11,6 @@
 - scraping algorithm to find the correct webpage for the specific module then direct user there
 
 - add settings page to let user customise settings
-
-- every time user refreshes page (so at top of view_lectures page, call the removeOldLectures function from the ics_processor.php so the user doesn't see old lectures)
 
 ### Done:
 
@@ -33,6 +31,8 @@
 last two points addressed by short term solution of downloading ics file each time user logs in, and checks if new lectures added in ics file then updating to database
 
 - ~~limiting max lectures shown at once to 20, then allowing user to do 20 more etc (retrieve all and then javascript to only show 20, etc)~~
+
+- ~~every time user refreshes page (so at top of view_lectures page, call the removeOldLectures function from the ics_processor.php so the user doesn't see old lectures)~~
 
 ### How to test ical functionality:
 - login with a created account

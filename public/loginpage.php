@@ -21,17 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $verify = password_verify($password, $user_data['password']); // Hashing check
 
             if ($verify) {
-                $_SESSION['user_id'] = $user_data['user_id'];
-                $user_id = $user_data['user_id'];
-                $filename = "{$user_id}.ics";
-                downloadICSFile($user_id, $con);
-                $errorchecking = processICSFile($user_id, $filename, $con);
-                if($errorchecking == 1){
-                    echo "<script>alert('Timetable updated successfully!'); window.location.href='view_lectures.php';</script>";
-                } else {
-                    echo "<script>alert('Error processing ICS file.');</script>";
-                } 
-                exit;
+                echo "<script>alert('Login successful!'); window.location.href='view_lectures.php';</script>";
 
             } else {
                 echo '<script type="text/javascript">
