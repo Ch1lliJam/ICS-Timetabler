@@ -35,5 +35,6 @@ last two points addressed by short term solution of downloading ics file each ti
 - ~~every time user refreshes page (so at top of view_lectures page, call the removeOldLectures function from the ics_processor.php so the user doesn't see old lectures)~~
 
 ### How to test ical functionality:
+- remove all x.ics files
 - login with a created account
 
