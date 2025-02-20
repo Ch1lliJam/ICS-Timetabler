@@ -48,15 +48,3 @@ function validate_ics_link($link) {
     return preg_match($pattern, $link);
 }
 
-function get_next20_lectures($con, $user_id, $limit) {
-    $start_point = $limit - 20;
-    $query = "SELECT * FROM lectures WHERE user_id = ? ORDER BY day, start_time LIMIT 20 OFFSET ?";
-    $stmt = $con->prepare($query);
-    $stmt->bind_param("ii", $user_id, $start_point);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    $lectures = $result->fetch_all(MYSQLI_ASSOC);
-    $stmt->close();
-
-    return json_encode($lectures);
-}

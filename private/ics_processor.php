@@ -113,7 +113,7 @@ function processICSFile($user_id, $filename, $con) {
     if (count($newEvents) > 0) {
         $currentDateTime = new DateTime();
         foreach ($newEvents as $event) {
-            $eventDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['START_DATE'] . ' ' . $event['START_TIME']);
+            $eventDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['START_DATE'] . ' ' . $event['END_TIME']);
             if ($eventDateTime > $currentDateTime) {
                 $module_code = $event['COURSE_CODE'];
                 $module_name = $event['COURSE_TITLE'];
@@ -194,7 +194,7 @@ function removeOldLectures($user_id, $con) {
     $currentDateTime = date('Y-m-d H:i');
 
     // Query to delete lectures before the current date and time for the specified user_id
-    $query = "DELETE FROM lectures WHERE user_id = ? AND CONCAT(day, ' ', start_time) < ?";
+    $query = "DELETE FROM lectures WHERE user_id = ? AND STR_TO_DATE(CONCAT(day, ' ', start_time), '%Y-%m-%d %H:%i:%s') < ?";
     $stmt = $con->prepare($query);
 
     if (!$stmt) {

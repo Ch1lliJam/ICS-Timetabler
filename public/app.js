@@ -1,7 +1,3 @@
-let limit = 20;
-
-
-
 // Function to calculate the current university week
 function calculateWeek(startDate) {
     const dateElement = document.getElementById('current-date');
@@ -214,7 +210,6 @@ function filterAndDisplayLectures() {
 
             document.getElementById('load-more-btn').addEventListener('click', function (e) {
                 e.preventDefault();
-                limit += 20;
                 fetchLectures(limit);
                 loadMoreItem.remove(); // Remove the "Load More" item after clicking
             });

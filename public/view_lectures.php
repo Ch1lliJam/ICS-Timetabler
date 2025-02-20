@@ -14,8 +14,16 @@ $limit = 20;
 // remove old lectures
 removeOldLectures($user_id, $con);
 
+$query = "SELECT * FROM lectures WHERE user_id = ?";
+$stmt = $con->prepare($query);
+$stmt->bind_param("i", $user_id);
+$stmt->execute();
+$result = $stmt->get_result();
+$lectures = $result->fetch_all(MYSQLI_ASSOC);
+$stmt->close();
+
 // Fetch lectures from the database
-$lecturesJson = get_next20_lectures($con, $user_id, $limit);
+$lecturesJson = json_encode($lectures);
 date_default_timezone_set('Europe/London');
 
 ?>
