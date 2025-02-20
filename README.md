@@ -2,15 +2,11 @@
 
 ### Working on:
 
-
-- weird deletion of lectures by the removeOldLectures function if the time is getting close to the next lecture, or if within lecture time (maybe fixed, check when near lectures/2 hour lectures)
-
+- add settings page to let user customise settings (such as images linked to module code, light/dark mode, etc)
 
 ### Todo:
 
 - scraping algorithm to find the correct webpage for the specific module then direct user there
-
-- add settings page to let user customise settings
 
 ### Done:
 
@@ -34,7 +30,10 @@ last two points addressed by short term solution of downloading ics file each ti
 
 - ~~every time user refreshes page (so at top of view_lectures page, call the removeOldLectures function from the ics_processor.php so the user doesn't see old lectures)~~
 
+- ~~weird deletion of lectures by the removeOldLectures function if the time is getting close to the next lecture, or if within lecture time (maybe fixed, check when near lectures/2 hour lectures)~~
+
 ### How to test ical functionality:
 - remove all x.ics files
 - login with a created account
+- (check if 2 hour lectures are working correctly)
 
