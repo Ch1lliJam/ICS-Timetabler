@@ -113,8 +113,11 @@ function processICSFile($user_id, $filename, $con) {
     if (count($newEvents) > 0) {
         $currentDateTime = new DateTime();
         foreach ($newEvents as $event) {
-            $eventDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['START_DATE'] . ' ' . $event['END_TIME']);
-            if ($eventDateTime > $currentDateTime) {
+            $eventEndDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['END_DATE'] . ' ' . $event['END_TIME']);
+            $eventStartDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['START_DATE'] . ' ' . $event['START_TIME']);
+
+            // Check if the event is on the same day and if the end time has not passed
+            if ($eventEndDateTime > $currentDateTime || ($eventStartDateTime->format('Y-m-d') === $currentDateTime->format('Y-m-d') && $eventEndDateTime > $currentDateTime)) {
                 $module_code = $event['COURSE_CODE'];
                 $module_name = $event['COURSE_TITLE'];
                 $day = $event['START_DATE'];
@@ -194,7 +197,7 @@ function removeOldLectures($user_id, $con) {
     $currentDateTime = date('Y-m-d H:i');
 
     // Query to delete lectures before the current date and time for the specified user_id
-    $query = "DELETE FROM lectures WHERE user_id = ? AND STR_TO_DATE(CONCAT(day, ' ', start_time), '%Y-%m-%d %H:%i:%s') < ?";
+    $query = "DELETE FROM lectures WHERE user_id = ? AND STR_TO_DATE(CONCAT(day, ' ', end_time), '%Y-%m-%d %H:%i') < ?";
     $stmt = $con->prepare($query);
 
     if (!$stmt) {

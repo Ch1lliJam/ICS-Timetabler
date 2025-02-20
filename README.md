@@ -4,7 +4,7 @@
 
 - limiting max lectures shown at once to 20, then allowing user to do 20 more etc (retrieve all and then javascript to only show 20, etc)
 
-- weird deletion of lectures by the processICSFile if the time is getting close to the next lecture
+- weird deletion of lectures by the processICSFile if the time is getting close to the next lecture (maybe fixed, check when near lectures)
 
 
 ### Todo:

@@ -1,0 +1,1748 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:University of Kent THALIA
+X-WR-CALNAME:My classes
+TZID:Europe/London
+X-WR-CALDESC:University of Kent personalised icalendar feed
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+UID:226794_202500053388_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241010T160000
+DTEND:20241010T180000
+SUMMARY:ICT NATS0001 Foundation Biology
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053389_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241031T160000
+DTEND:20241031T180000
+SUMMARY:ICT NATS0001 Foundation Biology
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053390_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241121T160000
+DTEND:20241121T180000
+SUMMARY:ICT NATS0001 Foundation Biology
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053391_19@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241212T160000
+DTEND:20241212T180000
+SUMMARY:ICT NATS0001 Foundation Biology
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053392_8@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240926T150000
+DTEND:20240926T160000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: TLT
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053393_8@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240927T100000
+DTEND:20240927T110000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053394_9@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241003T150000
+DTEND:20241003T160000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: TLT
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053395_9@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241004T100000
+DTEND:20241004T110000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053396_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241010T150000
+DTEND:20241010T160000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: TLT
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053397_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241011T100000
+DTEND:20241011T110000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053400_12@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241024T150000
+DTEND:20241024T160000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: TLT
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053401_12@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241025T100000
+DTEND:20241025T110000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053402_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241031T150000
+DTEND:20241031T160000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: TLT
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053403_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241101T100000
+DTEND:20241101T110000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053405_15@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241115T100000
+DTEND:20241115T110000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053406_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241121T150000
+DTEND:20241121T160000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: TLT
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053407_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241122T100000
+DTEND:20241122T110000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053408_17@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241128T150000
+DTEND:20241128T160000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: TLT
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053409_17@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241129T100000
+DTEND:20241129T110000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053410_18@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241205T150000
+DTEND:20241205T160000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: TLT
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053411_18@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241206T100000
+DTEND:20241206T110000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053412_19@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241212T150000
+DTEND:20241212T160000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: TLT
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=TLT\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053413_19@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241213T100000
+DTEND:20241213T110000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053414_40@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250508T160000
+DTEND:20250508T170000
+SUMMARY:REVISION NATS0001 Foundation Biology
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  33 AUTUMN Term   Academic Week no. 40 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053415_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241010T110000
+DTEND:20241010T130000
+SUMMARY:WORKSHOP NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053416_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241031T110000
+DTEND:20241031T130000
+SUMMARY:WORKSHOP NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053417_18@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241205T110000
+DTEND:20241205T130000
+SUMMARY:WORKSHOP NATS0001 Foundation Biology
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053424_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241008T140000
+DTEND:20241008T160000
+SUMMARY:ICT NATS0002 Foundation Chemistry
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053425_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241029T140000
+DTEND:20241029T160000
+SUMMARY:ICT NATS0002 Foundation Chemistry
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053426_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241119T140000
+DTEND:20241119T160000
+SUMMARY:ICT NATS0002 Foundation Chemistry
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053427_19@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241210T140000
+DTEND:20241210T160000
+SUMMARY:ICT NATS0002 Foundation Chemistry
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053428_8@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240923T110000
+DTEND:20240923T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053430_8@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240924T110000
+DTEND:20240924T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053431_9@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241001T090000
+DTEND:20241001T100000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053432_9@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241001T110000
+DTEND:20241001T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053433_9@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241003T140000
+DTEND:20241003T150000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053434_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241008T090000
+DTEND:20241008T100000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053435_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241008T110000
+DTEND:20241008T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053436_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241010T140000
+DTEND:20241010T150000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053437_11@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241015T090000
+DTEND:20241015T100000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053438_11@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241015T110000
+DTEND:20241015T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053439_11@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241017T140000
+DTEND:20241017T150000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053440_12@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241022T090000
+DTEND:20241022T100000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053441_12@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241022T110000
+DTEND:20241022T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053442_12@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241024T140000
+DTEND:20241024T150000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053443_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241029T090000
+DTEND:20241029T100000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053444_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241029T110000
+DTEND:20241029T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053445_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241031T140000
+DTEND:20241031T150000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053446_15@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241112T090000
+DTEND:20241112T100000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053447_15@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241112T110000
+DTEND:20241112T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053448_15@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241114T140000
+DTEND:20241114T150000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053449_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241119T090000
+DTEND:20241119T100000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053450_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241119T110000
+DTEND:20241119T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053451_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241121T140000
+DTEND:20241121T150000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053452_17@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241126T090000
+DTEND:20241126T100000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Max Cardenas Fernandez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053453_17@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241126T110000
+DTEND:20241126T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Max Cardenas Fernandez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053454_17@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241128T140000
+DTEND:20241128T150000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053455_18@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241203T090000
+DTEND:20241203T100000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Max Cardenas Fernandez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053456_18@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241203T110000
+DTEND:20241203T120000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Max Cardenas Fernandez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053457_18@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241205T140000
+DTEND:20241205T150000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Max Cardenas Fernandez\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053471_8@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240925T110000
+DTEND:20240925T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: PS_LAB_1
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PS_LAB_1\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053472_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241009T100000
+DTEND:20241009T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: PS_LAB_1
+DESCRIPTION:Taught by  Doctor Alex Wright\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PS_LAB_1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053473_11@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241016T100000
+DTEND:20241016T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: BIOL_LAB_1, BIOL_LAB_2, BIOL_LAB_3
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=BIOL_LAB_1,BIOL_LAB_2,BIOL_LAB_3\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053474_12@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241023T100000
+DTEND:20241023T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: BIOL_LAB_1, BIOL_LAB_2, BIOL_LAB_3
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=BIOL_LAB_1,BIOL_LAB_2,BIOL_LAB_3\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053475_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241030T100000
+DTEND:20241030T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: PS_LAB_1
+DESCRIPTION:Taught by  Doctor Alex Wright\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PS_LAB_1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053478_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241120T100000
+DTEND:20241120T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: BIOL_LAB_1, BIOL_LAB_2, BIOL_LAB_3
+DESCRIPTION:Taught by  Doctor Mohinder Pal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=BIOL_LAB_1,BIOL_LAB_2,BIOL_LAB_3\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053480_17@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241127T100000
+DTEND:20241127T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: BIOL_LAB_1, BIOL_LAB_2, BIOL_LAB_3
+DESCRIPTION:Taught by  Doctor Mohinder Pal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=BIOL_LAB_1,BIOL_LAB_2,BIOL_LAB_3\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053481_18@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241204T100000
+DTEND:20241204T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: PS_LAB_1
+DESCRIPTION:Taught by  Doctor Alex Wright\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PS_LAB_1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053482_19@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241211T100000
+DTEND:20241211T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: PS_LAB_1
+DESCRIPTION:Taught by  Doctor Alex Wright\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PS_LAB_1\n\nWeek no  12 AUTUMN Term   Academic Week no. 19 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053483_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241011T140000
+DTEND:20241011T160000
+SUMMARY:WORKSHOP_G NATS0003 Group 21 Scientific Methods and Data Handling
+LOCATION: KLT5
+DESCRIPTION:Taught by  Doctor Alex Wright\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT5\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053484_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241101T140000
+DTEND:20241101T160000
+SUMMARY:WORKSHOP_G NATS0003 Group 21 Scientific Methods and Data Handling
+LOCATION: KLT5
+DESCRIPTION:Taught by  Doctor Alex Wright\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT5\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053492_8@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240925T100000
+DTEND:20240925T110000
+SUMMARY:LECTURE NATS0003 Scientific Methods and Data Handling
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton, Doctor Alex Wright\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053567_24@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250115T100000
+DTEND:20250115T120000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: RLT1
+DESCRIPTION:Taught by  Professor Daniel Mulvihill\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053568_25@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250122T100000
+DTEND:20250122T120000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053569_26@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250129T100000
+DTEND:20250129T120000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: RLT1
+DESCRIPTION:Taught by  Professor Daniel Mulvihill\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053570_27@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250205T100000
+DTEND:20250205T120000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: RLT1
+DESCRIPTION:Taught by  Professor Daniel Mulvihill\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053571_28@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250212T100000
+DTEND:20250212T120000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: RLT1
+DESCRIPTION:Taught by  Professor Daniel Mulvihill\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053572_29@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250219T100000
+DTEND:20250219T120000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: SLT1
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SLT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053573_31@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250305T100000
+DTEND:20250305T120000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053574_33@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250319T100000
+DTEND:20250319T120000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053575_34@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250326T100000
+DTEND:20250326T120000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Emma Hargreaves\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053577_40@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250509T110000
+DTEND:20250509T120000
+SUMMARY:REVISION NATS0005 Fundamental Human Biology and Genetics
+LOCATION: SIBLT3
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT3\n\nWeek no  17 SPRING Term   Academic Week no. 40 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053578_24@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250113T130000
+DTEND:20250113T150000
+SUMMARY:WORKSHOP NATS0005 Fundamental Human Biology and Genetics
+LOCATION: SIBLT3
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT3\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053619_25@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250124T130000
+DTEND:20250124T150000
+SUMMARY:WORKSHOP_G NATS0007 Group 12 Chemical Reactivity and Analysis
+LOCATION: PSR2
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PSR2\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053620_28@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250214T130000
+DTEND:20250214T150000
+SUMMARY:WORKSHOP_G NATS0007 Group 12 Chemical Reactivity and Analysis
+LOCATION: PSR2
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PSR2\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053622_24@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250113T100000
+DTEND:20250113T110000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: SLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SLT1\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500053623_24@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250114T110000
+DTEND:20250114T120000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  1 SPRING Term   Academic Week no. 24 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500076214_26@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250131T150000
+DTEND:20250131T170000
+SUMMARY:ICT NATS0007 Chemical Reactivity and Analysis
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Aaron Berko, Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500076215_28@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250214T150000
+DTEND:20250214T170000
+SUMMARY:ICT NATS0007 Chemical Reactivity and Analysis
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Aaron Berko, Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500076216_32@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250314T150000
+DTEND:20250314T170000
+SUMMARY:ICT NATS0007 Chemical Reactivity and Analysis
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Aaron Berko, Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500076217_34@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250328T150000
+DTEND:20250328T170000
+SUMMARY:ICT NATS0007 Chemical Reactivity and Analysis
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Aaron Berko, Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500080487_8@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20240924T090000
+DTEND:20240924T100000
+SUMMARY:LECTURE NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  1 AUTUMN Term   Academic Week no. 8 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500080488_40@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250506T140000
+DTEND:20250506T150000
+SUMMARY:REVISION NATS0002 Foundation Chemistry
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Aaron Hillier, Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  33 AUTUMN Term   Academic Week no. 40 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500080493_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241009T090000
+DTEND:20241009T100000
+SUMMARY:TUTORIAL NATS0003 Scientific Methods and Data Handling
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton, Doctor Alexandra Moores\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500080494_12@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241023T090000
+DTEND:20241023T100000
+SUMMARY:TUTORIAL NATS0003 Scientific Methods and Data Handling
+LOCATION: GLT1
+DESCRIPTION:Taught by   Sarah Saunders\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500080495_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241030T090000
+DTEND:20241030T100000
+SUMMARY:TUTORIAL NATS0003 Scientific Methods and Data Handling
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Alexandra Moores\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500080496_15@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241113T090000
+DTEND:20241113T100000
+SUMMARY:TUTORIAL NATS0003 Scientific Methods and Data Handling
+LOCATION: GLT1
+DESCRIPTION:Taught by   Sarah Saunders\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500080497_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241120T090000
+DTEND:20241120T100000
+SUMMARY:TUTORIAL NATS0003 Scientific Methods and Data Handling
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Alexandra Moores\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500080498_18@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241204T090000
+DTEND:20241204T100000
+SUMMARY:TUTORIAL NATS0003 Scientific Methods and Data Handling
+LOCATION: GLT1
+DESCRIPTION:Taught by   Sarah Saunders\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081373_11@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241017T160000
+DTEND:20241017T180000
+SUMMARY:WORKSHOP_G NATS0002 Group 11 Foundation Chemistry
+LOCATION: SIBLT2
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT2\n\nWeek no  4 AUTUMN Term   Academic Week no. 11 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081374_15@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241114T160000
+DTEND:20241114T180000
+SUMMARY:WORKSHOP_G NATS0002 Group 11 Foundation Chemistry
+LOCATION: SIBLT2
+DESCRIPTION:Taught by  Doctor Aaron Hillier\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT2\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081375_17@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241128T160000
+DTEND:20241128T180000
+SUMMARY:WORKSHOP_G NATS0002 Group 11 Foundation Chemistry
+LOCATION: SIBLT2
+DESCRIPTION:Taught by  Doctor David Beal\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT2\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081379_25@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250120T120000
+DTEND:20250120T150000
+SUMMARY:PC NATS0004 Group 12 Scientific Methods and Academic Skills Development
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081380_27@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250203T120000
+DTEND:20250203T150000
+SUMMARY:PC NATS0004 Group 12 Scientific Methods and Academic Skills Development
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081381_29@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250217T120000
+DTEND:20250217T150000
+SUMMARY:PC NATS0004 Group 12 Scientific Methods and Academic Skills Development
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081382_31@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250303T120000
+DTEND:20250303T150000
+SUMMARY:PC NATS0004 Group 12 Scientific Methods and Academic Skills Development
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081383_33@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250317T120000
+DTEND:20250317T150000
+SUMMARY:PC NATS0004 Group 12 Scientific Methods and Academic Skills Development
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081384_35@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250331T120000
+DTEND:20250331T150000
+SUMMARY:PC NATS0004 Group 12 Scientific Methods and Academic Skills Development
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081413_32@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250312T100000
+DTEND:20250312T120000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: RLT1
+DESCRIPTION:Taught by  Professor Daniel Mulvihill\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081442_25@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250121T140000
+DTEND:20250121T150000
+SUMMARY:DROPIN NATS0007 Chemical Reactivity and Analysis
+LOCATION: ELT2
+DESCRIPTION:Taught by  Doctor Donna Arnold\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ELT2\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081443_27@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250204T140000
+DTEND:20250204T150000
+SUMMARY:DROPIN NATS0007 Chemical Reactivity and Analysis
+LOCATION: ELT2
+DESCRIPTION:Taught by  Doctor Donna Arnold\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ELT2\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081444_29@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250218T140000
+DTEND:20250218T150000
+SUMMARY:DROPIN NATS0007 Chemical Reactivity and Analysis
+LOCATION: ELT2
+DESCRIPTION:Taught by  Doctor Donna Arnold\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ELT2\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081445_31@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250304T140000
+DTEND:20250304T150000
+SUMMARY:DROPIN NATS0007 Chemical Reactivity and Analysis
+LOCATION: ELT2
+DESCRIPTION:Taught by  Doctor Donna Arnold\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ELT2\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500081446_33@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250318T140000
+DTEND:20250318T150000
+SUMMARY:DROPIN NATS0007 Chemical Reactivity and Analysis
+LOCATION: ELT2
+DESCRIPTION:Taught by  Doctor Donna Arnold\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ELT2\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500090743_9@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241002T100000
+DTEND:20241002T110000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Chris Deter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500091291_17@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241128T110000
+DTEND:20241128T130000
+SUMMARY:ICT NATS0001 Foundation Biology
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  10 AUTUMN Term   Academic Week no. 17 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500092155_9@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241002T110000
+DTEND:20241002T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: MAR_119
+DESCRIPTION:Taught by  Doctor Chris Deter\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MAR_119\n\nWeek no  2 AUTUMN Term   Academic Week no. 9 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500092643_10@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241008T100000
+DTEND:20241008T110000
+SUMMARY:WORKSHOP NATS0003 Scientific Methods and Data Handling
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Donna Arnold\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  3 AUTUMN Term   Academic Week no. 10 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500092644_12@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241022T100000
+DTEND:20241022T110000
+SUMMARY:WORKSHOP NATS0003 Scientific Methods and Data Handling
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Donna Arnold\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  5 AUTUMN Term   Academic Week no. 12 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500092645_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241119T100000
+DTEND:20241119T110000
+SUMMARY:WORKSHOP NATS0003 Scientific Methods and Data Handling
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Donna Arnold\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500092646_18@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241203T100000
+DTEND:20241203T110000
+SUMMARY:WORKSHOP NATS0003 Scientific Methods and Data Handling
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Donna Arnold\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  11 AUTUMN Term   Academic Week no. 18 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500092647_26@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250130T120000
+DTEND:20250130T140000
+SUMMARY:SEMINAR NATS0004 Group 23 Scientific Methods and Academic Skills Development
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500092648_28@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250213T120000
+DTEND:20250213T140000
+SUMMARY:SEMINAR NATS0004 Group 23 Scientific Methods and Academic Skills Development
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500092649_32@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250313T120000
+DTEND:20250313T140000
+SUMMARY:SEMINAR NATS0004 Group 23 Scientific Methods and Academic Skills Development
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500092650_34@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250327T120000
+DTEND:20250327T140000
+SUMMARY:SEMINAR NATS0004 Group 23 Scientific Methods and Academic Skills Development
+LOCATION: KENPC3
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KENPC3\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500092800_11@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241016T140000
+DTEND:20241016T150000
+SUMMARY:WORKSHOP  NATS0003 Money Matters (AAE)
+LOCATION: SIBLT3
+DESCRIPTION:Taught by  Mrs Hollie Sanigar-Relf\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT3\n\nWeek no  11 EXTRA Term   Academic Week no. 11 ( week range 1 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500093207_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241031T090000
+DTEND:20241031T100000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500093208_13@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241101T130000
+DTEND:20241101T140000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  6 AUTUMN Term   Academic Week no. 13 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500095105_32@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250314T120000
+DTEND:20250314T140000
+SUMMARY:WORKSHOP_G NATS0007 Group 12 Chemical Reactivity and Analysis
+LOCATION: ILT
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=ILT\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500095106_40@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250506T110000
+DTEND:20250506T120000
+SUMMARY:REVISION NATS0007 Chemical Reactivity and Analysis
+LOCATION: SLT1
+DESCRIPTION:Taught by  Doctor Aaron Berko, Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SLT1\n\nWeek no  17 SPRING Term   Academic Week no. 40 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500095996_15@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241113T100000
+DTEND:20241113T130000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: PS_LAB_1
+DESCRIPTION:Taught by  Doctor Alex Wright\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=PS_LAB_1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500096055_15@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241115T130000
+DTEND:20241115T140000
+SUMMARY:LECTURE NATS0001 Foundation Biology
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Peter Klappa\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  8 AUTUMN Term   Academic Week no. 15 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500096874_16@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20241122T140000
+DTEND:20241122T160000
+SUMMARY:PRACTICAL_G NATS0003 Group 12 Scientific Methods and Data Handling
+LOCATION: KLT5
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=KLT5\n\nWeek no  9 AUTUMN Term   Academic Week no. 16 ( week range 8 - 50 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101718_25@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250120T160000
+DTEND:20250120T170000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101719_25@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250122T120000
+DTEND:20250122T130000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  2 SPRING Term   Academic Week no. 25 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101720_26@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250127T160000
+DTEND:20250127T170000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101721_26@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250129T120000
+DTEND:20250129T130000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101722_27@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250203T160000
+DTEND:20250203T170000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101723_27@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250205T120000
+DTEND:20250205T130000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101724_28@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250210T160000
+DTEND:20250210T170000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101725_28@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250212T120000
+DTEND:20250212T130000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101726_29@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250219T120000
+DTEND:20250219T130000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Aaron Berko\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101727_31@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250305T120000
+DTEND:20250305T130000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Aaron Berko\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101728_32@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250312T120000
+DTEND:20250312T130000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Felipe Fantuzzi\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101729_33@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250319T120000
+DTEND:20250319T130000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Aaron Berko\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101730_34@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250326T120000
+DTEND:20250326T130000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Aaron Berko\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101851_26@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250130T140000
+DTEND:20250130T160000
+SUMMARY:ICT NATS0005 Fundamental Human Biology and Genetics
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101852_29@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250220T140000
+DTEND:20250220T160000
+SUMMARY:ICT NATS0005 Fundamental Human Biology and Genetics
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101853_32@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250313T140000
+DTEND:20250313T160000
+SUMMARY:ICT NATS0005 Fundamental Human Biology and Genetics
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101854_35@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250403T140000
+DTEND:20250403T160000
+SUMMARY:ICT NATS0005 Fundamental Human Biology and Genetics
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101855_27@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250206T090000
+DTEND:20250206T110000
+SUMMARY:WORKSHOP NATS0005 Fundamental Human Biology and Genetics
+LOCATION: GLT1
+DESCRIPTION:Taught by  Professor Daniel Mulvihill\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101856_31@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250306T090000
+DTEND:20250306T110000
+SUMMARY:WORKSHOP NATS0005 Fundamental Human Biology and Genetics
+LOCATION: GLT1
+DESCRIPTION:Taught by  Professor Daniel Mulvihill\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101857_34@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250327T090000
+DTEND:20250327T110000
+SUMMARY:WORKSHOP NATS0005 Fundamental Human Biology and Genetics
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Emma Hargreaves\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101858_29@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250217T160000
+DTEND:20250217T170000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Aaron Berko\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101859_31@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250303T160000
+DTEND:20250303T170000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Aaron Berko\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101860_32@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250310T160000
+DTEND:20250310T170000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Maria Alfredsson\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101861_33@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250317T160000
+DTEND:20250317T170000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Aaron Berko\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101862_34@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250324T160000
+DTEND:20250324T170000
+SUMMARY:LECTURE NATS0007 Chemical Reactivity and Analysis
+LOCATION: SIBLT1
+DESCRIPTION:Taught by  Doctor Aaron Berko\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=SIBLT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500101912_28@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250213T140000
+DTEND:20250213T160000
+SUMMARY:ICT NATS0005 Fundamental Human Biology and Genetics
+LOCATION: CANT_ONLIN
+DESCRIPTION:Taught by  Professor Daniel Mulvihill\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=CANT_ONLIN\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102078_26@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250131T090000
+DTEND:20250131T100000
+SUMMARY:LECTURE NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102079_27@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250207T090000
+DTEND:20250207T100000
+SUMMARY:LECTURE NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  4 SPRING Term   Academic Week no. 27 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102080_28@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250214T090000
+DTEND:20250214T100000
+SUMMARY:LECTURE NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  5 SPRING Term   Academic Week no. 28 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102081_29@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250221T090000
+DTEND:20250221T100000
+SUMMARY:LECTURE NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102082_31@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250307T090000
+DTEND:20250307T100000
+SUMMARY:LECTURE NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102083_32@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250314T090000
+DTEND:20250314T100000
+SUMMARY:LECTURE NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  9 SPRING Term   Academic Week no. 32 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102084_33@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250321T090000
+DTEND:20250321T100000
+SUMMARY:LECTURE NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102085_34@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250328T090000
+DTEND:20250328T100000
+SUMMARY:LECTURE NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  11 SPRING Term   Academic Week no. 34 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102086_35@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250404T090000
+DTEND:20250404T100000
+SUMMARY:LECTURE NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: MARLT1
+DESCRIPTION:Taught by  Doctor Matthew Robins\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102087_26@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250131T100000
+DTEND:20250131T110000
+SUMMARY:TUTORIAL NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: MARLT1
+DESCRIPTION:Taught by   Sarah Saunders\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=MARLT1\n\nWeek no  3 SPRING Term   Academic Week no. 26 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102089_31@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250304T130000
+DTEND:20250304T140000
+SUMMARY:TUTORIAL NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: RLT1
+DESCRIPTION:Taught by TBA\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  8 SPRING Term   Academic Week no. 31 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102090_33@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250318T130000
+DTEND:20250318T140000
+SUMMARY:TUTORIAL NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: RLT1
+DESCRIPTION:Taught by TBA\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  10 SPRING Term   Academic Week no. 33 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102091_35@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250401T140000
+DTEND:20250401T150000
+SUMMARY:TUTORIAL NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: RLT1
+DESCRIPTION:Taught by   Sarah Saunders, Doctor Rosalyn Masterton\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102320_29@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250218T150000
+DTEND:20250218T160000
+SUMMARY:TUTORIAL NATS0004 Scientific Methods and Academic Skills Development
+LOCATION: RLT1
+DESCRIPTION:Taught by  Doctor Manaal Siddiqui\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=RLT1\n\nWeek no  6 SPRING Term   Academic Week no. 29 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+BEGIN:VEVENT
+UID:226794_202500102676_35@kent.ac.uk
+DTSTAMP:20250220T095703Z
+ORGANIZER:CN=University of Kent
+DTSTART:20250403T090000
+DTEND:20250403T110000
+SUMMARY:LECTURE NATS0005 Fundamental Human Biology and Genetics
+LOCATION: GLT1
+DESCRIPTION:Taught by  Doctor Emma Hargreaves\n\nLocation: https://www.kent.ac.uk/timetabling/rooms/room.html?room=GLT1\n\nWeek no  12 SPRING Term   Academic Week no. 35 ( week range 24 - 52 )\nThis data was updated Feb 20 2025  9:57AM\n\nDetails of this service https://www.kent.ac.uk/timetabling/icalendar
+END:VEVENT
+END:VCALENDAR

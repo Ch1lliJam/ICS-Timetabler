@@ -25,6 +25,7 @@ $stmt->close();
 // Fetch lectures from the database
 $lecturesJson = json_encode($lectures);
 date_default_timezone_set('Europe/London');
+$currentDateTime = date('Y-m-d H:i');
 
 ?>
 
@@ -73,6 +74,8 @@ date_default_timezone_set('Europe/London');
         <script>
             const lectures = <?= $lecturesJson; ?>;
             console.log("Lectures:", lectures);
+            const currentDateTime = "<?= $currentDateTime; ?>";
+            console.log("Current Date Time:", currentDateTime);
         </script>
         <script src="app.js"></script>
 
@@ -88,37 +91,5 @@ date_default_timezone_set('Europe/London');
         <a href="">(images used for personal use only)</a>
     </div>
 
-    <script>
-        // Carousel navigation
-        const next = document.querySelector('.next');
-        const prev = document.querySelector('.prev');
-
-        next.addEventListener('click', () => {
-            const items = document.querySelectorAll('.item');
-            document.querySelector('.slide').appendChild(items[0]);
-        });
-
-        prev.addEventListener('click', () => {
-            const items = document.querySelectorAll('.item');
-            document.querySelector('.slide').prepend(items[items.length - 1]);
-        });
-
-        // Date and University Week
-        document.addEventListener('DOMContentLoaded', () => {
-            const dateElement = document.getElementById('current-date');
-            const weekElement = document.getElementById('current-week');
-            const today = new Date();
-            const formattedDate = today.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
-            dateElement.textContent = formattedDate;
-
-            const startDate = new Date('2024-08-05'); // University start date
-            const oneWeek = 7 * 24 * 60 * 60 * 1000; // Milliseconds in a week
-            const currentWeek = Math.floor((today - startDate) / oneWeek) + 1;
-            weekElement.textContent = "University Week: " + currentWeek;
-            const prevButton = document.querySelector('.prev');
-            prevButton.click();
-        });
-
-    </script>
 </body>
 </html>

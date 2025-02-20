@@ -1,3 +1,5 @@
+let limit = 5;
+
 // Function to calculate the current university week
 function calculateWeek(startDate) {
     const dateElement = document.getElementById('current-date');
@@ -13,30 +15,42 @@ function calculateWeek(startDate) {
 
 // Set the current date
 document.addEventListener("DOMContentLoaded", function () {
-    const dateElement = document.getElementById("current-date");
-    const weekElement = document.getElementById("current-week");
+    // Carousel navigation
+    const next = document.querySelector('.next');
+    const prev = document.querySelector('.prev');
 
-    // Display today's date
-    const today = new Date();
-    const formattedDate = today.toLocaleDateString('en-GB', {
-        day: '2-digit',
-        month: '2-digit',
-        year: 'numeric'
+    next.addEventListener('click', () => {
+        const items = document.querySelectorAll('.item');
+        document.querySelector('.slide').appendChild(items[0]);
     });
+
+    prev.addEventListener('click', () => {
+        const items = document.querySelectorAll('.item');
+        document.querySelector('.slide').prepend(items[items.length - 1]);
+    });
+
+    // Date and University Week
+    const dateElement = document.getElementById('current-date');
+    const weekElement = document.getElementById('current-week');
+    const today = new Date();
+    const formattedDate = today.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
     dateElement.textContent = formattedDate;
 
-    // Calculate and display the current university week
-    const startDate = '2024-08-05'; // Start date of university week 1
-    const currentWeek = calculateWeek(startDate);
+    const startDate = new Date('2024-08-05'); // University start date
+    const oneWeek = 7 * 24 * 60 * 60 * 1000; // Milliseconds in a week
+    const currentWeek = Math.floor((today - startDate) / oneWeek) + 1;
     weekElement.textContent = "University Week: " + currentWeek;
-
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+    
     // Example of manipulating the lectures array
     console.log("Lectures from PHP:", lectures);
     filterAndDisplayLectures();
+
+    if (prevButton) {
+        prevButton.click();
+    }
 });
-
-
-// JSON data for lectures
 
 
 // Mapping of module codes to image filenames
@@ -93,6 +107,23 @@ function isBeforeTime(currentTime, endTime) {
     }
 }
 
+// Function to format the date to "DDth MMM"
+function formatDateToDayMonth(dateString) {
+    const date = new Date(dateString);
+    const day = date.getDate();
+    const month = date.toLocaleString('en-GB', { month: 'short' });
+    const daySuffix = (day) => {
+        if (day > 3 && day < 21) return 'th'; // 11th, 12th, 13th, etc.
+        switch (day % 10) {
+            case 1: return 'st';
+            case 2: return 'nd';
+            case 3: return 'rd';
+            default: return 'th';
+        }
+    };
+    return `${day}${daySuffix(day)} ${month}`;
+}
+
 
 function filterAndDisplayLectures() {
     try {
@@ -102,21 +133,7 @@ function filterAndDisplayLectures() {
         if (!currentDate || !currentTime) throw new Error('Failed to get current day or time');
         console.log(`Total lectures fetched: ${lectures.length}`);
 
-        // Add a fake lecture as a filler for 18th feb 2025 at 12:00 AM
-        const fakeLecture = {
-            module_name: "Beginning of the Week",
-            module_code: "FAKE101",
-            day: "18th February 2025",
-            start_time: "00:00",
-            end_time: "01:00",
-            location: "Nowhere",
-            onedrive_link: "#",
-            moodle_link: "#",
-            presto_link: "#",
-            maps_link: "#",
-        };
-
-        sortedLectures = lectures;
+        sortedLectures = lectures.slice(0, limit); // Limit the number of lectures displayed
         // Populate the lecture items with the filtered lectures
         const lectureContainer = document.getElementById('lecture-container');
         lectureContainer.innerHTML = ''; // Clear existing lectures
@@ -137,7 +154,7 @@ function filterAndDisplayLectures() {
             des.className = 'des';
             des.innerHTML = `
                 <p><strong>${lecture.module_code}</strong></p>
-                <p>${lecture.day}</p>
+                <p>${formatDateToDayMonth(lecture.day)}</p>
                 <p>${lecture.start_time} - ${lecture.end_time}</p>
                 <p>${lecture.location}</p>
             `;
@@ -210,8 +227,16 @@ function filterAndDisplayLectures() {
 
             document.getElementById('load-more-btn').addEventListener('click', function (e) {
                 e.preventDefault();
-                fetchLectures(limit);
+                limit += 5;
+                filterAndDisplayLectures();
                 loadMoreItem.remove(); // Remove the "Load More" item after clicking
+
+                // Simulate clicking the next button multiple times equal to the limit variable
+                const nextButton = document.querySelector('.next');
+                for (let i = 0; i < limit; i++) {
+                    nextButton.click();
+                }
+
             });
         }
     } catch (error) {
