@@ -194,7 +194,7 @@ function checkForNewLectures($user_id, $con, $events) {
 //function to remove lectures before the current date and time
 function removeOldLectures($user_id, $con) {
     // Get the current date and time
-    $currentDateTime = date('Y-m-d H:i');
+    $currentDateTime = date('Y-m-d H:i', strtotime("-1 hour"));
 
     // Query to delete lectures before the current date and time for the specified user_id
     $query = "DELETE FROM lectures WHERE user_id = ? AND STR_TO_DATE(CONCAT(day, ' ', end_time), '%Y-%m-%d %H:%i') < ?";
