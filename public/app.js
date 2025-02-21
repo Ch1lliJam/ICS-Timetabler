@@ -124,6 +124,24 @@ function formatDateToDayMonth(dateString) {
     return `${day}${daySuffix(day)} ${month}`;
 }
 
+// Function to set the current date and week
+function setCurrentDateAndWeek() {
+    const currentDateElement = document.getElementById('current-date');
+    const currentWeekElement = document.getElementById('current-week');
+
+    // Set current date
+    const now = new Date();
+    currentDateElement.innerText = now.toLocaleDateString('en-GB', {
+        year: 'numeric', month: '2-digit', day: '2-digit'
+    });
+
+    // Calculate university week based on the first week starting on 5th August
+    const firstWeekStart = new Date(now.getFullYear(), 7, 5); // 5th August
+    const weekNumber = Math.floor((now - firstWeekStart) / (1000 * 60 * 60 * 24 * 7)) + 1; // Add 1 for week count
+
+    currentWeekElement.innerText = `University Week: ${weekNumber}`;
+}
+
 
 function filterAndDisplayLectures() {
     try {
@@ -138,7 +156,7 @@ function filterAndDisplayLectures() {
         const lectureContainer = document.getElementById('lecture-container');
         lectureContainer.innerHTML = ''; // Clear existing lectures
 
-        sortedLectures.forEach((lecture, index) => {
+        sortedLectures.forEach((lecture) => {
             const item = document.createElement('div');
             item.className = 'item';
             item.style.backgroundImage = 'url(image/default.jpg)';
@@ -244,29 +262,4 @@ function filterAndDisplayLectures() {
     }
 }
 
-
-
-
-
-
-
-
-
-// Function to set the current date and week
-function setCurrentDateAndWeek() {
-    const currentDateElement = document.getElementById('current-date');
-    const currentWeekElement = document.getElementById('current-week');
-
-    // Set current date
-    const now = new Date();
-    currentDateElement.innerText = now.toLocaleDateString('en-GB', {
-        year: 'numeric', month: '2-digit', day: '2-digit'
-    });
-
-    // Calculate university week based on the first week starting on 5th August
-    const firstWeekStart = new Date(now.getFullYear(), 7, 5); // 5th August
-    const weekNumber = Math.floor((now - firstWeekStart) / (1000 * 60 * 60 * 24 * 7)) + 1; // Add 1 for week count
-
-    currentWeekElement.innerText = `University Week: ${weekNumber}`;
-}
 

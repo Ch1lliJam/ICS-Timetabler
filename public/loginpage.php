@@ -23,7 +23,16 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             if ($verify) {
                 $_SESSION['user_id'] = $user_data['user_id'];
                 $_SESSION['user_name'] = $user_data['user_name'];
-                echo "<script>alert('Login successful!'); window.location.href='view_lectures.php';</script>";
+                
+                $filename = "{$user_id}.ics";
+                downloadICSFile($user_id, $con);
+                $errorchecking = processICSFile($user_id, $filename, $con);
+                if($errorchecking == 1){
+                    echo "<script>alert('Login Successful! ICS file processing Succesful!.'); window.location.href='view_lectures.php';</script>";
+                } else {
+                    echo "<script>alert('Error processing ICS file.');</script>";
+                } 
+                exit;
 
             } else {
                 echo '<script type="text/javascript">

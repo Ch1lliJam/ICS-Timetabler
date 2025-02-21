@@ -4,11 +4,7 @@
 
 - add settings page to let user customise settings (such as images linked to module code, light/dark mode, etc)
 
-- Re-implement processICSFile for each time user logs in, try adding all lectures that are the same day as current day, leave the comparing of time to the removeOldLectures function
-
 ### Todo:
-
-- scraping algorithm to find the correct webpage for the specific module then direct user there
 
 ### Done:
 
@@ -34,8 +30,12 @@ last two points addressed by short term solution of downloading ics file each ti
 
 - ~~weird deletion of lectures by the removeOldLectures function if the time is getting close to the next lecture, or if within lecture time (maybe fixed, check when near lectures/2 hour lectures)~~
 
-### How to test ical functionality:
-- remove all x.ics files
-- login with a created account
-- (check if 2 hour lectures are working correctly)
+- ~~Re-implement processICSFile for each time user logs in, try adding all lectures that are the same day as current day, leave the comparing of time to the removeOldLectures function~~
+
+- ~~scraping algorithm to find the correct webpage for the specific module then direct user there~~ not possible because moodle api forbids foreign connections from the website
+
+### To Test:
+
+- If lectures remain within the database while its currently occuring (DTSTART = 16:00, DTEND = 17:00, CURRENT_TIME = 16:30, therefore lecture should still be present.)
+
 

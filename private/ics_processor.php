@@ -111,13 +111,14 @@ function processICSFile($user_id, $filename, $con) {
     $newEvents = checkForNewLectures($user_id, $con, $events);
 
     if (count($newEvents) > 0) {
-        $currentDateTime = new DateTime();
+        $currentDateTime = new DateTime(); // alternative idea to fetch lectures that are still happening
+        $currentDateTime->modify('-1 day');
+
         foreach ($newEvents as $event) {
             $eventEndDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['END_DATE'] . ' ' . ($event['END_TIME']));
-            $eventStartDateTime = DateTime::createFromFormat('Y-m-d H:i', $event['START_DATE'] . ' ' . ($event['START_TIME']));
 
             // Check if the event is on the same day and if the end time has not passed
-            if ($eventEndDateTime > $currentDateTime || ($eventStartDateTime <= $currentDateTime && $eventEndDateTime >= $currentDateTime)) {
+            if ($eventEndDateTime > $currentDateTime) {
                 $module_code = $event['COURSE_CODE'];
                 $module_name = $event['COURSE_TITLE'];
                 $day = $event['START_DATE'];
