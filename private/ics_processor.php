@@ -125,7 +125,7 @@ function processICSFile($user_id, $filename, $con) {
                 $start_time = $event['START_TIME'];
                 $end_time = $event['END_TIME'];
                 $onedrive_link = 'https://livekentac-my.sharepoint.com/my';
-                $moodle_link = 'https://moodle.kent.ac.uk';
+                $moodle_link = 'https://moodle.kent.ac.uk/2024/my/courses.php';
                 $presto_link = 'https://attendance.kent.ac.uk/selfregistration';
                 $maps_link = 'https://www.google.com/maps/search/?api=1&query='.$location;
 

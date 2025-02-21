@@ -4,6 +4,8 @@
 
 - add settings page to let user customise settings (such as images linked to module code, light/dark mode, etc)
 
+- Re-implement processICSFile for each time user logs in, try adding all lectures that are the same day as current day, leave the comparing of time to the removeOldLectures function
+
 ### Todo:
 
 - scraping algorithm to find the correct webpage for the specific module then direct user there
