@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings Page</title>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container-fluid main" style="height:100vh;padding-left:0px;">
+    <div class="row" style="height:100%">
+        <div class="leftside_nav" style="height:100%">
+            <div class="container-fluid nav sidebar flex-column">
+                <a href="#" class="nav-link active mt-auto"><ion-icon name="person-circle-outline"></ion-icon> Profile</a>
+                <a href="#" class="nav-link"><ion-icon name="notifications-outline"></ion-icon> Notifications</a>
+                <a href="#" class="nav-link"><ion-icon name="document-text-outline"></ion-icon> Billing Info</a>
+                <a href="#" class="nav-link mb-auto"><ion-icon name="settings-outline"></ion-icon> General</a>
+            </div>
+        </div>
+    
+        <div class="profile_settings">
+            <div class="container content clear-fix">
+                <h2 class="mt-5 mb-5">Profile Settings</h2>
+                <div class="row" style="height:100%">
+                    <div class="profile_form">
+                        <div class="profile_form_container">
+                            <form>
+                                <div class="form-group">
+                                    <label for="fullName">Full Name</label>
+                                    <input type="text" class="form-control" id="fullName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pass">Password</label>
+                                    <input type="password" class="form-control" id="pass">
+                                </div>
+                                <div class="form-group">
+                                    <label for="birthday">Birthday</label>
+                                    <input type="date" class="form-control" id="birthday">
+                                </div>
+                            </form>
+                            <div class="row mt-5">
+                                <div class="save_button">
+                                    <button type="button" class="btn btn-primary btn-block">Save Changes</button>
+                                </div>
+                                <div class="cancel_button">
+                                    <button type="button" class="btn btn-default btn-block">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

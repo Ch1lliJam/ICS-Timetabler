@@ -16,8 +16,20 @@ function downloadICSFile($user_id, $con) {
     }
     $stmt->close();
 
-    // Download the iCal data
-    $ical_data = file_get_contents($ics_link);
+    // Download the iCal data using cURL
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $ics_link);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Disable SSL verification
+
+    $ical_data = curl_exec($ch);
+    if (curl_errno($ch)) {
+        echo 'Error:' . curl_error($ch);
+        curl_close($ch);
+        return false;
+    }
+    curl_close($ch);
 
     if ($ical_data === false) {
         die("Failed to download iCal data.");
