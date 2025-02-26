@@ -1,0 +1,249 @@
+/* 
+  Inspired from 
+  Settings - Daily UI 007
+  by Dillon Morris
+  https://dribbble.com/shots/4290939-Settings-Daily-UI-007
+*/
+
+body,html{
+    height:100%;
+    overflow-y: hidden;
+}
+h2{
+    font-weight: bolder;
+    color: #898dbf;
+}
+
+
+form{
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+form *{
+    font-weight: bold;
+}
+
+form label{
+    font-size: 18px;
+    color:#8f9096;
+}
+
+form .form-control,form .form-control:focus{
+    border-color:transparent;
+    border-bottom-color: #bebcc1;
+    box-shadow:none;
+}
+
+form .btn{ 
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+.btn.btn-default{
+    background: #ebebeb;
+    color:#8f9096;
+}
+
+.btn.btn-primary{
+    background: #6c63ff;
+    color:white;
+}
+.leftside_nav {
+    display: flex;
+    height: 100vh !important;
+    bottom: 0;
+    padding-left:20px;
+    font-size: 1.3rem;
+    background: white;
+    max-width: 35%;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    border-right: 1px solid #e9ebee;
+}
+
+.profile_settings {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 75%;
+    padding-left: 20px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.profile_form_container {
+    padding: 20px;
+    width: 100%;
+
+}
+.save_button {
+    margin-right: 4%;
+    margin-left: 15px;
+}
+
+
+.row.mt-5 {
+    display: flex;
+
+}
+
+
+
+.leftside_nav .nav-link{
+    margin-bottom: 20px;
+    color:black;
+}
+
+.nav-link.active{
+    border: 2px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.nav-link:hover{
+    background-color: #eeeeee;
+    border: 2px;
+    border-radius: 10px;
+}
+
+.nav-link:active{
+    background-color: #c7c6c6;
+    border-radius: 10px;
+}
+
+.main > .row{
+    height: 100%;
+}
+
+
+nav {
+    position: fixed !important;
+    height: 80px;
+    width: 100%; /* Ensure it spans the full width */
+    top: 0;
+    left: 0;
+    background-color: transparent; /* Set background to transparent */
+    color: white; /* Text color */
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    z-index: 9999999 !important;
+    box-sizing: border-box !important;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+/* Container for links */
+.links-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1020;
+}
+
+/* Navbar links */
+nav a {
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black; /* Link text color */
+    border-radius: 5px; /* Rounded corners */   
+    margin: 5px; /* Add margin between links */
+}
+
+/* Link hover effect */
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light semi-transparent hover effect */
+    text-decoration: none;
+}
+
+/* Home link alignment */
+nav .home-link {
+    margin-right: auto;
+    font-size: 27px; /* Font size for the home link */
+    font-weight: bold; /* Make the home link bold */
+}
+
+/* Other links styling */
+nav a:not(.home-link) {
+    font-size: 27px; /* Font size for other links */
+}
+nav a.active {
+    background-color: rgba(255, 255, 255, 0.2); /* Light semi-transparent hover effect */
+}
+
+/* SVG icons */
+nav svg {
+    fill: black; /* Ensure SVG icons are visible */
+}
+
+/* Hidden checkbox for sidebar */
+#sidebar-active {
+    display: none;
+}
+
+
+/* Sidebar buttons (hidden by default) */
+.open-sidebar-button, .close-sidebar-button {
+    display: none;
+}
+
+
+
+/* Responsive styles for smaller screens */
+@media(max-width: 800px) {
+    .links-container {
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 1020;
+        width: 300px;
+        background-color: black; /* Black background for dropdown menu */
+        box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+        transition: 0.75s ease-out;
+    }
+    nav a {
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+        color: white; /* White text color in dropdown */
+    }
+
+
+    .open-sidebar-button, .close-sidebar-button {
+        padding: 20px;
+        display: block;
+    }
+
+    #sidebar-active:checked ~ .links-container svg {
+        fill: white !important; /* Change SVG icons to white when sidebar is active */
+    }
+
+    #sidebar-active:checked ~ .links-container {
+        right: 0;
+    }
+    #sidebar-active:checked ~ #overlay {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1010;
+    }
+    nav .home-link {
+        font-size: 27px; /* Font size for the home link */
+    }
+}
