@@ -53,7 +53,7 @@ $currentDateTime = date('Y-m-d H:i');
             <a class="home-link" href="view_lectures.php">ChilliJam</a>
             <a class="active" href="view_lectures.php">Lectures</a>
             <a href="modify_lectures.php">Edit Lectures</a>
-            <a href="#">Settings</a>
+            <a href="settingspage.php">Settings</a>
             <a href="logout.php">Log out</a>
         </div>
     </nav>

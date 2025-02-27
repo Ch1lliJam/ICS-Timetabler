@@ -1,3 +1,17 @@
+<?php
+session_start();
+require '../private/autoload.php';
+
+// Check if the user is logged in
+$user_data = check_login($con);
+if (!$user_data) {
+    header("Location: loginpage.php");
+    exit;
+}
+$user_id = $user_data['user_id'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,9 +43,9 @@
             </label>
 
             <a class="home-link" href="view_lectures.php">ChilliJam</a>
-            <a class="active" href="view_lectures.php">Lectures</a>
+            <a href="view_lectures.php">Lectures</a>
             <a href="modify_lectures.php">Edit Lectures</a>
-            <a href="#">Settings</a>
+            <a class="active" href="settingspage.php">Settings</a>
             <a href="logout.php">Log out</a>
         </div>
     </nav>
@@ -55,20 +69,16 @@
                             <div class="profile_form_container">
                                 <form>
                                     <div class="form-group">
-                                        <label for="fullName">Full Name</label>
-                                        <input type="text" class="form-control" id="fullName">
+                                        <label for="fullName">Username</label>
+                                        <input type="text" class="form-control" id="fullName" value="Placeholder">
                                     </div>
                                     <div class="form-group">
                                         <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email">
+                                        <input type="email" class="form-control" id="email" value="xyz@gmail.com">
                                     </div>
                                     <div class="form-group">
-                                        <label for="pass">Password</label>
-                                        <input type="password" class="form-control" id="pass">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="birthday">Birthday</label>
-                                        <input type="date" class="form-control" id="birthday">
+                                        <label for="ics_link">ICS_link</label>
+                                        <input type="text" class="form-control" id="ics_link" value="webcal://www.kent.ac.uk/timetabling/ics/2021/ics/ics_2021_22.ics">
                                     </div>
                                 </form>
                                 <div class="row mt-5">
@@ -102,8 +112,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="settingsNavbarColor">Settings Page Navbar Color</label>
-                                        <input type="color" class="form-control" id="settingsNavbarColor"
-                                            value="#6c63ff">
+                                        <input type="color" class="form-control" id="settingsNavbarColor" value="#6c63ff">
                                     </div>
                                     <div class="form-group">
                                         <label for="navbarTextColor">Navbar Text Color</label>
