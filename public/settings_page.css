@@ -91,9 +91,9 @@ form .btn{
 
 .appearance_form_container .form-control {
     width: 20%;
-    border: 2px;
     padding: 0 0;
-
+    background-color: transparent;
+    border-bottom-color: transparent;
 }
 
 
