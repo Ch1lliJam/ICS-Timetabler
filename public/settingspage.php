@@ -10,6 +10,27 @@ if (!$user_data) {
 }
 $user_id = $user_data['user_id'];
 
+$query = "SELECT user_name, email, ics_link FROM users WHERE user_id = ?";
+$stmt = $con->prepare($query);
+$stmt->bind_param("i", $user_id);
+$stmt->execute();
+$result = $stmt->get_result();
+$user = $result->fetch_assoc();
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $user_name = trim($_POST['user_name']);
+    $email = trim($_POST['email']);
+    $ics_link = trim($_POST['ics_link']);
+
+    $update_query = "UPDATE users SET user_name = ?, email = ?, ics_link = ? WHERE user_id = ?";
+    $stmt = $con->prepare($update_query);
+    $stmt->bind_param("sssi", $user_name, $email, $ics_link, $user_id);
+    $update_stmt = $stmt->execute();
+
+    header("Location: settingspage.php");
+    exit;
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -67,28 +88,28 @@ $user_id = $user_data['user_id'];
                     <div class="row" style="height:100%">
                         <div class="profile_form">
                             <div class="profile_form_container">
-                                <form>
+                                <form method="POST" action="settingspage.php">
                                     <div class="form-group">
-                                        <label for="fullName">Username</label>
-                                        <input type="text" class="form-control" id="fullName" value="Placeholder">
+                                        <label for="user_name">Username</label>
+                                        <input type="text" class="form-control" id="user_name" name="user_name" value="<?php echo htmlspecialchars($user['user_name']); ?>">
                                     </div>
                                     <div class="form-group">
                                         <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" value="xyz@gmail.com">
+                                        <input type="email" class="form-control" id="email" name="email" value="<?php echo htmlspecialchars($user['email']); ?>">
                                     </div>
                                     <div class="form-group">
-                                        <label for="ics_link">ICS_link</label>
-                                        <input type="text" class="form-control" id="ics_link" value="webcal://www.kent.ac.uk/timetabling/ics/2021/ics/ics_2021_22.ics">
+                                        <label for="ics_link">ICS Link</label>
+                                        <input type="text" class="form-control" id="ics_link" name="ics_link" value="<?php echo htmlspecialchars($user['ics_link']); ?>">
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="save_button">
+                                            <button type="submit" class="btn btn-primary btn-block">Save Changes</button>
+                                        </div>
+                                        <div class="cancel_button">
+                                            <button type="button" class="btn btn-default btn-block" onclick="resetForm()">Cancel</button>
+                                        </div>
                                     </div>
                                 </form>
-                                <div class="row mt-5">
-                                    <div class="save_button">
-                                        <button type="button" class="btn btn-primary btn-block">Save Changes</button>
-                                    </div>
-                                    <div class="cancel_button">
-                                        <button type="button" class="btn btn-default btn-block">Cancel</button>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -210,8 +231,14 @@ $user_id = $user_data['user_id'];
             });
             document.body.style.color = mainPageTextColor;
         }
+
+        function resetForm() {
+            document.getElementById('user_name').value = "<?php echo htmlspecialchars($user['user_name']); ?>";
+            document.getElementById('email').value = "<?php echo htmlspecialchars($user['email']); ?>";
+            document.getElementById('ics_link').value = "<?php echo htmlspecialchars($user['ics_link']); ?>";
+        }
     </script>
-    
+
 
 </body>
 
