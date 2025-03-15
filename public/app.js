@@ -151,6 +151,15 @@ function filterAndDisplayLectures() {
         if (!currentDate || !currentTime) throw new Error('Failed to get current day or time');
         console.log(`Total lectures fetched: ${lectures.length}`);
 
+        const moduleLinksMap = {};
+        moduleLinks.forEach(link => {
+            moduleLinksMap[link.module_code] = {
+                onedrive_link: link.onedrive_link,
+                moodle_link: link.moodle_link
+            };
+        });
+
+
         sortedLectures = lectures.slice(0, limit); // Limit the number of lectures displayed
         // Populate the lecture items with the filtered lectures
         const lectureContainer = document.getElementById('lecture-container');
@@ -186,16 +195,19 @@ function filterAndDisplayLectures() {
                 item.style.backgroundImage = 'url(image/WIP_image.jpg)';
             }
 
+            const onedriveLink = moduleLinksMap[lecture.module_code]?.onedrive_link || lecture.onedrive_link;
+            const moodleLink = moduleLinksMap[lecture.module_code]?.moodle_link || lecture.moodle_link;
+
             // Set the href attributes for the buttons
             const onedriveBtn = document.createElement('a');
             onedriveBtn.className = 'onedrive-btn';
-            onedriveBtn.href = lecture.onedrive_link || '#';
+            onedriveBtn.href = onedriveLink || '#';
             onedriveBtn.target = '_blank';
             onedriveBtn.innerHTML = '<img src="image/onedrive_icon.png" alt="OneDrive Icon"> OneDrive';
 
             const moodleBtn = document.createElement('a');
             moodleBtn.className = 'moodle-btn';
-            moodleBtn.href = lecture.moodle_link || '#';
+            moodleBtn.href = moodleLink || '#';
             moodleBtn.target = '_blank';
             moodleBtn.innerHTML = '<img src="image/moodle_icon.png" alt="Moodle Icon"> Moodle';
 

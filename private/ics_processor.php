@@ -169,6 +169,22 @@ function processICSFile($user_id, $filename, $con) {
                 $stmt->close();
             }
         }
+        $new_modules = [];
+        foreach ($newEvents as $event) {
+            $module_code = $event['COURSE_CODE'];
+            $query = "SELECT * FROM module_links WHERE user_id = ? AND module_code = ?";
+            $stmt = $con->prepare($query);
+            $stmt->bind_param("is", $user_id, $module_code);
+            $stmt->execute();
+            $result = $stmt->get_result();
+            if ($result->num_rows == 0) {
+                $new_modules[] = $module_code;
+            }
+        }
+
+        // Store new modules in session
+        $_SESSION['new_modules'] = $new_modules;
+        
         return true;
     } else {
         return true;

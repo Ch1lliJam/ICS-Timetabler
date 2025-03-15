@@ -21,8 +21,17 @@ $result = $stmt->get_result();
 $lectures = $result->fetch_all(MYSQLI_ASSOC);
 $stmt->close();
 
+$query = "SELECT module_code, onedrive_link, moodle_link FROM module_links WHERE user_id = ?";
+$stmt = $con->prepare($query);
+$stmt->bind_param("i", $user_id);
+$stmt->execute();
+$result = $stmt->get_result();
+$module_links = $result->fetch_all(MYSQLI_ASSOC);
+$stmt->close();
+
 // Fetch lectures from the database
 $lecturesJson = json_encode($lectures);
+$moduleLinksJson = json_encode($module_links);
 date_default_timezone_set('Europe/London');
 $currentDateTime = date('Y-m-d H:i');
 
@@ -73,7 +82,9 @@ $currentDateTime = date('Y-m-d H:i');
 
         <script>
             const lectures = <?= $lecturesJson; ?>;
+            const moduleLinks = <?= $moduleLinksJson; ?>;
             console.log("Lectures:", lectures);
+            console.log("Module Links:", moduleLinks);
             const currentDateTime = "<?= $currentDateTime; ?>";
             console.log("Current Date Time:", currentDateTime);
         </script>

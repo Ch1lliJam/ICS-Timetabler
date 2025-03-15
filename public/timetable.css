@@ -712,5 +712,21 @@ body.lecture-page {
     margin-top: 100px !important;
 }
 
+/* Specific button styling for module_links.php */
+.module-links-btn {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add some margin at the top */
+    display: block; /* Make the button a block element */
+    width: 100%; /* Make the button take the full width */
+    text-align: center; /* Center the text */
+}
 
+.module-links-btn:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
 

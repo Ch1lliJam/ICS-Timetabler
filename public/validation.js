@@ -35,3 +35,35 @@ function validateForm(event, isLogin = false) {
 
     return true;
 }
+
+function validateModuleLinksForm(event) {
+    const urlRegex = /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/i;
+    const modules = document.querySelectorAll('.lecture-item');
+
+    for (const module of modules) {
+        const moduleCode = module.querySelector('h3').textContent;
+        const onedriveLink = module.querySelector(`[id^="onedrive_link_"]`).value.trim();
+        const moodleLink = module.querySelector(`[id^="moodle_link_"]`).value.trim();
+        const pictureLink = module.querySelector(`[id^="picture_link_"]`).value.trim();
+
+        if (!onedriveLink.match(urlRegex)) {
+            alert(`Invalid OneDrive link for module code: ${moduleCode}`);
+            event.preventDefault();
+            return false;
+        }
+
+        if (!moodleLink.match(urlRegex)) {
+            alert(`Invalid Moodle link for module code: ${moduleCode}`);
+            event.preventDefault();
+            return false;
+        }
+
+        if (pictureLink && !pictureLink.match(urlRegex)) {
+            alert(`Invalid Picture link for module code: ${moduleCode}`);
+            event.preventDefault();
+            return false;
+        }
+    }
+
+    return true;
+}
