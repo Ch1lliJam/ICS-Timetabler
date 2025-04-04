@@ -29,12 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 if (downloadICSFile($user_id, $con)) {
                     $errorchecking = processICSFile($user_id, $filename, $con);
                     if ($errorchecking) {
-                        if (!empty($_SESSION['new_modules'])) {
-                            header("Location: module_links.php");
-                            exit;
-                        } else {
                         echo "<script>alert('Login Successful! ICS file processing Successful!'); window.location.href='view_lectures.php';</script>";
-                        }
                     } else {
                         echo "<script>alert('Error processing ICS file.');</script>";
                     }

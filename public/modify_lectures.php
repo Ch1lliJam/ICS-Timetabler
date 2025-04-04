@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../private/autoload.php'; 
+require '../private/autoload.php';
 
 // Check if user is logged in
 $user_data = check_login($con);
@@ -47,6 +47,34 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['modify'])) {
     }
 }
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['modify-modules'])) {
+    $module_id = $_POST['id'];
+    $module_code = trim($_POST['module_code']);
+    $onedrive_link = !empty($_POST['onedrive_link']) ? trim($_POST['onedrive_link']) : null;
+    $moodle_link = !empty($_POST['moodle_link']) ? trim($_POST['moodle_link']) : null;
+    $picture_link = !empty($_POST['picture_link']) ? trim($_POST['picture_link']) : null;
+    $maps_link = !empty($_POST['maps_link']) ? trim($_POST['maps_link']) : null;
+
+    // Update the module links in the database
+    $query = "UPDATE module_links SET module_code = ?, onedrive_link = ?, moodle_link = ?, picture_link = ?, location_link = ? WHERE module_id = ?";
+    $stmt = $con->prepare($query);
+    $stmt->bind_param(
+        "sssssi",
+        $module_code,
+        $onedrive_link,
+        $moodle_link,
+        $picture_link,
+        $maps_link,
+        $lecture_id
+    );
+
+    if ($stmt->execute()) {
+        echo "<p style='color:green; margin-top: 100px; margin-left: 20px; font-size: 24px;'>Module links modified successfully!";
+    } else {
+        echo "<p style='color:red; margin-top: 100px; margin-left: 20px; font-size: 24px;'>Error: " . $stmt->error;
+    }
+}
+
 // Handle deletion of a lecture
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete'])) {
     $lecture_id = $_POST['lecture_id'];
@@ -73,14 +101,19 @@ $result = $stmt->get_result();
 $lectures = $result->fetch_all(MYSQLI_ASSOC);
 $stmt->close();
 
-// Function to get the index of the day
-function getDayIndex($day) {
-    $days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
-    return array_search(strtolower($day), $days);
-}
+// Retrieve all modules associated with the user_id
+$query = "SELECT * FROM module_links WHERE user_id = ?";
+$stmt = $con->prepare($query);
+$stmt->bind_param("i", $user_id);
+$stmt->execute();
+$result = $stmt->get_result();
+$modules = $result->fetch_all(MYSQLI_ASSOC);
+$stmt->close();
+
+
 
 // Sort the lectures by day and then by start time
-usort($lectures, function($a, $b) {
+usort($lectures, function ($a, $b) {
     $dayA = getDayIndex($a['day']);
     $dayB = getDayIndex($b['day']);
 
@@ -103,6 +136,7 @@ foreach ($lectures as &$lecture) {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -111,17 +145,22 @@ foreach ($lectures as &$lecture) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
+
 <body class="lecture-page">
     <!-- Navbar -->
     <nav>
         <input type="checkbox" id="sidebar-active">
         <label for="sidebar-active" class="open-sidebar-button">
-            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
         </label>
         <label id="overlay" for="sidebar-active"></label>
         <div class="links-container">
             <label for="sidebar-active" class="close-sidebar-button">
-                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
             </label>
 
             <a class="home-link" href="view_lectures.php">ChilliJam</a>
@@ -162,6 +201,20 @@ foreach ($lectures as &$lecture) {
                 <input type="time" name="end_time" id="modify-end-time" required placeholder=" ">
                 <label>End Time</label>
             </div>
+
+            <button type="submit" name="modify">Modify Lecture</button>
+        </form>
+    </div>
+
+    <!-- Modify Modules Form -->
+    <div id="modify-form-module" style="display:none;">
+        <h2>Modify Module</h2>
+        <form method="post">
+            <input type="hidden" name="module_id" id="modify-lecture-id">
+            <div class="inputbox">
+                <input type="text" name="module_code" id="modify-module-code" required placeholder=" ">
+                <label>Module Code</label>
+            </div>
             <div class="inputbox">
                 <input type="url" name="onedrive_link" id="modify-onedrive-link" placeholder=" ">
                 <label>OneDrive Link (Optional)</label>
@@ -171,17 +224,35 @@ foreach ($lectures as &$lecture) {
                 <label>Moodle Link (Optional)</label>
             </div>
             <div class="inputbox">
-                <input type="url" name="presto_link" id="modify-presto-link" placeholder=" ">
-                <label>Presto Link (Optional)</label>
+                <input type="url" name="picture_link" id="modify-picture-link" placeholder=" ">
+                <label>Picture Link (Optional)</label>
             </div>
             <div class="inputbox">
                 <input type="url" name="maps_link" id="modify-maps-link" placeholder=" ">
                 <label>Maps Link (Optional)</label>
             </div>
-            <button type="submit" name="modify">Modify Lecture</button>
+            <button type="submit" name="modify-modules">Modify Module</button>
         </form>
     </div>
 
+    <!-- Display all modules -->
+    <div class="modules-list">
+        <h2>Your Modules</h2>
+        <?php foreach ($modules as $module): ?>
+            <div class="module-item">
+                <p><strong>Module Code:</strong> <?= htmlspecialchars($module['module_code']); ?></p>
+                <p><strong>OneDrive Link:</strong> <a href="<?= htmlspecialchars($module['onedrive_link']); ?>" target="_blank"><?= htmlspecialchars($module['onedrive_link']); ?></a></p>
+                <p><strong>Moodle Link:</strong> <a href="<?= htmlspecialchars($module['moodle_link']); ?>" target="_blank"><?= htmlspecialchars($module['moodle_link']); ?></a></p>
+                <p><strong>Picture Link:</strong> <a href="<?= htmlspecialchars($module['picture_link']); ?>" target="_blank"><?= htmlspecialchars($module['picture_link']); ?></a></p>
+                <p><strong>Maps Link:</strong> <a href="<?= htmlspecialchars($module['location_link']); ?>" target="_blank"><?= htmlspecialchars($module['location_link']); ?></a></p>
+                <form method="post" style="display:inline;">
+                    <input type="hidden" name="module_id" value="<?= htmlspecialchars($module['id']); ?>">
+                    <button type="button" onclick="showModifyModuleForm(<?= htmlspecialchars(json_encode($module)); ?>)">Modify</button>
+                    <button type="submit" name="delete_module" onclick="return confirmDelete()">Delete</button>
+                </form>
+            </div>
+        <?php endforeach; ?>
+    </div>
 
     <!-- Display all lectures -->
     <div class="lectures-list">
@@ -231,6 +302,17 @@ foreach ($lectures as &$lecture) {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+
+        function showModifyModuleForm(module) {
+            document.getElementById('modify-module-id').value = module.id;
+            document.getElementById('modify-module-code').value = module.module_code;
+            document.getElementById('modify-onedrive-link').value = module.onedrive_link;
+            document.getElementById('modify-moodle-link').value = module.moodle_link;
+            document.getElementById('modify-picture-link').value = module.picture_link;
+            document.getElementById('modify-location-link').value = module.location_link;
+            document.getElementById('modify-module-form').style.display = 'block';
+        }
     </script>
 </body>
+
 </html>

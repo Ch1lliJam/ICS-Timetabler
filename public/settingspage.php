@@ -10,6 +10,7 @@ if (!$user_data) {
 }
 $user_id = $user_data['user_id'];
 
+
 $query = "SELECT user_name, email, ics_link FROM users WHERE user_id = ?";
 $stmt = $con->prepare($query);
 $stmt->bind_param("i", $user_id);
@@ -17,20 +18,53 @@ $stmt->execute();
 $result = $stmt->get_result();
 $user = $result->fetch_assoc();
 
+
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $user_name = trim($_POST['user_name']);
-    $email = trim($_POST['email']);
-    $ics_link = trim($_POST['ics_link']);
+    if (isset($_POST['reset_timetable'])) {
+        // Remove all entries in module_links and lectures for the specific user_id
+        $delete_module_links_query = "DELETE FROM module_links WHERE user_id = ?";
+        $stmt = $con->prepare($delete_module_links_query);
+        $stmt->bind_param("i", $user_id);
+        $stmt->execute();
 
-    $update_query = "UPDATE users SET user_name = ?, email = ?, ics_link = ? WHERE user_id = ?";
-    $stmt = $con->prepare($update_query);
-    $stmt->bind_param("sssi", $user_name, $email, $ics_link, $user_id);
-    $update_stmt = $stmt->execute();
+        $delete_lectures_query = "DELETE FROM lectures WHERE user_id = ?";
+        $stmt = $con->prepare($delete_lectures_query);
+        $stmt->bind_param("i", $user_id);
+        $stmt->execute();
 
-    header("Location: settingspage.php");
-    exit;
+        // Log the user out
+        session_destroy();
+        echo "<script>alert('Your timetable data has been reset. You will now be logged out.'); window.location.href = 'loginpage.php';</script>";
+        exit;
+    } elseif (isset($_POST['update_module'])) {
+        $module_code = trim($_POST['edit_module_code']);
+        $onedrive_link = trim($_POST['edit_onedrive_link']);
+        $moodle_link = trim($_POST['edit_moodle_link']);
+        $picture_link = trim($_POST['edit_picture_link']);
+        $location_link = trim($_POST['edit_location_link']);
+
+        $update_query = "UPDATE module_links SET onedrive_link = ?, moodle_link = ?, picture_link = ?, location_link = ? WHERE user_id = ? AND module_code = ?";
+        $stmt = $con->prepare($update_query);
+        $stmt->bind_param("sssssi", $onedrive_link, $moodle_link, $picture_link, $location_link, $user_id, $module_code);
+        $stmt->execute();
+
+        header("Location: settingspage.php");
+        exit;
+    } else {
+        $user_name = trim($_POST['user_name']);
+        $email = trim($_POST['email']);
+        $ics_link = trim($_POST['ics_link']);
+
+        $update_query = "UPDATE users SET user_name = ?, email = ?, ics_link = ? WHERE user_id = ?";
+        $stmt = $con->prepare($update_query);
+        $stmt->bind_param("sssi", $user_name, $email, $ics_link, $user_id);
+        $stmt->execute();
+
+        header("Location: settingspage.php");
+        exit;
+    }
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -40,8 +74,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="settings_page.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings Page</title>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons/ionicons.esm.min.js"></script>
+    <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons/ionicons.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
@@ -167,77 +201,83 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="timetabling_settings section" id="timetabling" style="display:none;">
                 <div class="container content clear-fix">
                     <h2 class="mt-5 mb-5">Timetabling Settings</h2>
-                    <!-- Add your timetabling settings form here -->
+
+                    <form method="POST" action="settingspage.php">
+                        <div class="form-group">
+                            <button type="submit" name="reset_timetable" class="btn btn-danger btn-block" onclick="return confirm('Are you sure you want to reset your timetable data? This action cannot be undone. You will be logged out.');">Reset Timetable Data</button>
+                        </div>
+                    </form>
+
+
                 </div>
+
             </div>
-
-
         </div>
-    </div>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 
-    <script>
-        function showSection(sectionId) {
-            // Hide all sections
-            document.querySelectorAll('.section').forEach(section => {
-                section.style.display = 'none';
-            });
+        <script>
+            function showSection(sectionId) {
+                // Hide all sections
+                document.querySelectorAll('.section').forEach(section => {
+                    section.style.display = 'none';
+                });
 
-            // Show the selected section
-            const targetSection = document.getElementById(sectionId);
-            if (targetSection) {
-                targetSection.style.display = 'flex';
-            } else {
-                console.error(`Section with ID '${sectionId}' not found.`);
+                // Show the selected section
+                const targetSection = document.getElementById(sectionId);
+                if (targetSection) {
+                    targetSection.style.display = 'flex';
+                } else {
+                    console.error(`Section with ID '${sectionId}' not found.`);
+                }
+
+                // Remove active class from all navbar links
+                document.querySelectorAll('.leftside_nav .nav-link').forEach(link => {
+                    link.classList.remove('active');
+                });
+
+                // Add active class to the clicked navbar link
+                document.querySelector(`.leftside_nav .nav-link[onclick="showSection('${sectionId}')"]`).classList.add('active');
             }
 
-            // Remove active class from all navbar links
-            document.querySelectorAll('.leftside_nav .nav-link').forEach(link => {
-                link.classList.remove('active');
-            });
+            function applyChanges() {
+                const navbarColor = document.getElementById('navbarColor').value;
+                const backgroundColor = document.getElementById('backgroundColor').value;
+                const settingsNavbarColor = document.getElementById('settingsNavbarColor').value;
+                const navbarTextColor = document.getElementById('navbarTextColor').value;
+                const settingsNavbarTextColor = document.getElementById('settingsNavbarTextColor').value;
+                const mainPageTextColor = document.getElementById('mainPageTextColor').value;
 
-            // Add active class to the clicked navbar link
-            document.querySelector(`.leftside_nav .nav-link[onclick="showSection('${sectionId}')"]`).classList.add('active');
-        }
+                document.querySelector('nav').style.backgroundColor = navbarColor;
+                document.body.style.backgroundColor = backgroundColor;
+                document.querySelector('.leftside_nav').style.backgroundColor = settingsNavbarColor;
+                document.querySelectorAll('nav a').forEach(link => {
+                    link.style.color = navbarTextColor;
+                });
+                document.querySelectorAll('.leftside_nav .nav-link').forEach(link => {
+                    link.style.color = settingsNavbarTextColor;
+                });
+                document.body.style.color = mainPageTextColor;
+            }
 
-        function applyChanges() {
-            const navbarColor = document.getElementById('navbarColor').value;
-            const backgroundColor = document.getElementById('backgroundColor').value;
-            const settingsNavbarColor = document.getElementById('settingsNavbarColor').value;
-            const navbarTextColor = document.getElementById('navbarTextColor').value;
-            const settingsNavbarTextColor = document.getElementById('settingsNavbarTextColor').value;
-            const mainPageTextColor = document.getElementById('mainPageTextColor').value;
+            function resetForm() {
+                document.getElementById('user_name').value = "<?php echo htmlspecialchars($user['user_name']); ?>";
+                document.getElementById('email').value = "<?php echo htmlspecialchars($user['email']); ?>";
+                document.getElementById('ics_link').value = "<?php echo htmlspecialchars($user['ics_link']); ?>";
+            }
 
-            document.querySelector('nav').style.backgroundColor = navbarColor;
-            document.body.style.backgroundColor = backgroundColor;
-            document.querySelector('.leftside_nav').style.backgroundColor = settingsNavbarColor;
-            document.querySelectorAll('nav a').forEach(link => {
-                link.style.color = navbarTextColor;
-            });
-            document.querySelectorAll('.leftside_nav .nav-link').forEach(link => {
-                link.style.color = settingsNavbarTextColor;
-            });
-            document.body.style.color = mainPageTextColor;
-        }
-
-        function resetForm() {
-            document.getElementById('user_name').value = "<?php echo htmlspecialchars($user['user_name']); ?>";
-            document.getElementById('email').value = "<?php echo htmlspecialchars($user['email']); ?>";
-            document.getElementById('ics_link').value = "<?php echo htmlspecialchars($user['ics_link']); ?>";
-        }
-    </script>
+        </script>
 
 
 </body>
